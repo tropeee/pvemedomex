@@ -130,7 +130,7 @@
         <a class="brand" target="_blank" href="https://bit.ly/2U1yUuS"><img class="brand-img-white" src="images\logos verde 15 de septiembre\logoPNT.png"  width="70" height="40"><img class="brand-img" src="images\logos verde 15 de septiembre\logoPNT NEGRO.png"  width="70" height="40"></a>
         <a class="brand" target="_blank" href="https://www.sarcoem.org.mx/"><img class="brand-img-white" src="images\logos verde 15 de septiembre\logoSarcomex.png"  width="70" height="40"><img class="brand-img" src="images\logos verde 15 de septiembre\logoSarcomex negro.png"  width="70" height="40"></a>
         <a class="brand" target="_blank" href="http://www.ipomex.org.mx/"><img class="brand-img-white" src="images\logos verde 15 de septiembre\ipom.png"  width="65" height="25"><img class="brand-img" src="images\logos verde 15 de septiembre\logoIpomex negro.png"  width="65" height="25"></a>    
-       <a  target="_blank" href="http://www.ipomex.org.mx/" ><FONT SIZE=4><font face="Comic Sans MS,Arial,Verdana"><b>PRUEBAInformación de Interés Público</b></a> 
+       <a  target="_blank" href="http://www.ipomex.org.mx/" ><FONT SIZE=4><font face="Comic Sans MS,Arial,Verdana"><b>Información de Interés Público</b></a> 
       </div>
       
         
