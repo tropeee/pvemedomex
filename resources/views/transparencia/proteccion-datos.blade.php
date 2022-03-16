@@ -238,7 +238,7 @@
 </section>
 <!--Team sec End-->
 
-<section class="portfolio-sec company-portfolio-section padding-top" id="company-portfolio-section">
+<section class="portfolio-sec company-portfolio-section padding-top">
     <div class="container">
         <div class="section-heading">
             <div class="row">
@@ -250,7 +250,7 @@
                 <div class="col-md-12 pt-5">
                 <div class="title-hr" ><div class="title-hr2" ></div></div>
 
-                    <div id="js-grid-mosaic" class="cbp cbp-l-grid-mosaic" style="    margin-left: 10%;">
+                    <div id="js-grid-mosaic" class="cbp cbp-l-grid-mosaic" style="    margin-left: 10%;"> <!-- problema -->
                       
                         
                         <div class="cbp-item web logo" style="max-width: 350px;">
@@ -806,11 +806,11 @@
                                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThirdteen" aria-expanded="false" aria-controls="collapseThirdteen" style="color: #338d67;">
                                         Elementos básicos del aviso de privacidad
                                         </button>
-                                    </h5>
                                     </div>
                                     <div id="collapseThirdteen" class="collapse" aria-labelledby="headingThirdteen" data-parent="#accordion">
                                         <div class="card-body" style="text-align: justify; padding-left: 2rem;padding-right: 2rem; font-size: 20px;">
-                                            <ol>
+                                            
+                                        <ol>
                                                 <li> &nbsp;&nbsp;&nbsp;&nbsp;Nombre del responsable</li>
                                                 <li> &nbsp;&nbsp;&nbsp;&nbsp;Datos personales que serán sometidos a tratamiento, señalando cuales son sensibles.</li>
                                                 <li> &nbsp;&nbsp;&nbsp;&nbsp;Finalidades del tratamiento.</li>
@@ -838,7 +838,7 @@
 <!--main page content end-->
 
 <!--portfolio section start-->
-<section class="portfolio-sec company-portfolio-section padding-bottom" id="company-portfolio-section">
+<section class="portfolio-sec company-portfolio-section padding-bottom" >
     <div class="container">
         <div class="section-heading">
             <div class="row">
@@ -847,9 +847,9 @@
                 </div>
                 <div class="col-md-12 pt-5">
                     
-                <div id="js-grid-mosaic" class="cbp cbp-l-grid-mosaic">
+                <div id="js-grid-mosaic1" class="cbp cbp-l-grid-mosaic"> <!-- no sirve -->
                         <div class="cbp-item web logo" style="max-width: 450px;" >
-                            <a target="blank" href="{{ asset('pdf\avisos-privacidad\Finanzas-Verde.pdf')}}" class="cbp-caption" data-title="">
+                            <a target="blank" href="{{ asset('pdf\avisos-privacidad\Aviso de Privacidad Integral Finanzas Verde 2021 julio.pdf')}}" class="cbp-caption" data-title="">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="images\seguridad-de-datos.png" alt="img" height="150px !important">
                                 </div>
@@ -862,22 +862,34 @@
                         </div>
                         
                         <div class="cbp-item web logo" style="max-width: 450px;">
-                            <a target="blank" href="{{ asset('pdf\avisos-privacidad\Candidatos-PVEM-Procesos-Electorales.pdf')}}" class="cbp-caption" data-title="">
+                            <a target="blank" href="{{ asset('pdf\avisos-privacidad\Sistema Estatal de Registro de RG y de C PVEM enero 22')}}" class="cbp-caption" data-title="">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="images\seguridad-de-datos.png" alt="img">
                                 </div>
                                 <div class="cbp-caption-activeWrap portfolio-hover-effect d-flex align-items-end">
                                     <div class="hover-text">
-                                        <h4 class="p-hover-title" style="font-weight: 100; text-align: center;">Candidatos PVEM Proceso Electoral Federal 2018.</h4>
+                                        <h4 class="p-hover-title" style="font-weight: 100; text-align: center;">Sistema Estatal de Registro de Representantes Generales y de Casilla PVEM.</h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         
                         <div class="cbp-item web logo" style="max-width: 450px;">
-                            <a target="blank" href="{{ asset('pdf\avisos-privacidad\Eventos-Secretaría-de-la-Mujer.pdf') }}" class="cbp-caption" data-title="">
+                            <a target="blank" href="{{ asset('pdf\avisos-privacidad\Sistema Estatal de Registro Candidatos PVEM enero 2022.pdf') }}" class="cbp-caption" data-title="">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="images\seguridad-de-datos.png" alt="img">
+                                </div>
+                                <div class="cbp-caption-activeWrap portfolio-hover-effect d-flex align-items-end">
+                                    <div class="hover-text">
+                                        <h4 class="p-hover-title" style="font-weight: 100; text-align: center;">Sistema Estatal de Registro de  Candidatos PVEM.</h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cbp-item web logo" style="max-width: 450px;" >
+                            <a target="blank" href="{{ asset('pdf\avisos-privacidad\Eventos Secretaría de la Mujer enero 2022.pdf')}}" class="cbp-caption" data-title="">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="images\seguridad-de-datos.png" alt="img" height="150px !important">
                                 </div>
                                 <div class="cbp-caption-activeWrap portfolio-hover-effect d-flex align-items-end">
                                     <div class="hover-text">
@@ -886,44 +898,46 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="cbp-item web logo" style="max-width: 450px;" >
-                            <a target="blank" href="{{ asset('pdf\avisos-privacidad\Sistema-Integral-de-Estructura-Electoral.pdf')}}" class="cbp-caption" data-title="">
+                        
+                        <div class="cbp-item web logo" style="max-width: 450px;">
+                            <a target="blank" href="{{ asset('pdf\avisos-privacidad\eventos, capacitación y asesoría enero 2022.pdf')}}" class="cbp-caption" data-title="">
                                 <div class="cbp-caption-defaultWrap">
-                                    <img src="images\seguridad-de-datos.png" alt="img" height="150px !important">
+                                    <img src="images\seguridad-de-datos.png" alt="img">
                                 </div>
                                 <div class="cbp-caption-activeWrap portfolio-hover-effect d-flex align-items-end">
                                     <div class="hover-text">
-                                        <h4 class="p-hover-title" style="font-weight: 100; text-align: center;">Sistema Integral de Estructura Electoral.</h4>
+                                        <h4 class="p-hover-title" style="font-weight: 100; text-align: center;">Eventos, capacitación y asesoría.</h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         
                         <div class="cbp-item web logo" style="max-width: 450px;">
-                            <a target="blank" href="{{ asset('pdf\avisos-privacidad\CONTROL-DE-ACCESO-A-LAS-INSTALACIONES.pdf')}}" class="cbp-caption" data-title="">
+                            <a target="blank" href="{{ asset('pdf\avisos-privacidad\Sistema ARCO enero 2022.pdf') }}" class="cbp-caption" data-title="">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="images\seguridad-de-datos.png" alt="img">
                                 </div>
                                 <div class="cbp-caption-activeWrap portfolio-hover-effect d-flex align-items-end">
                                     <div class="hover-text">
-                                        <h4 class="p-hover-title" style="font-weight: 100; text-align: center;">Control de Acceso a las Instalaciones del CEE del PVEM EDOMEX.</h4>
+                                        <h4 class="p-hover-title" style="font-weight: 100; text-align: center;">Sistema ARCO de Datos Personales PVEM.</h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         
                         <div class="cbp-item web logo" style="max-width: 450px;">
-                            <a target="blank" href="{{ asset('pdf\avisos-privacidad\eventos-capacitación-y-asesoría.pdf') }}" class="cbp-caption" data-title="">
+                            <a target="blank" href="{{ asset('pdf\avisos-privacidad\CONTROL DE ACCESO A LAS INSTALACIONES enero 2022.pdf') }}" class="cbp-caption" data-title="">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="images\seguridad-de-datos.png" alt="img">
                                 </div>
                                 <div class="cbp-caption-activeWrap portfolio-hover-effect d-flex align-items-end">
                                     <div class="hover-text">
-                                        <h4 class="p-hover-title" style="font-weight: 100; text-align: center;">Eventos, Capacitación y Asesoría.</h4>
+                                        <h4 class="p-hover-title" style="font-weight: 100; text-align: center;">Control de Acceso a las Instalaciones del CEE del PVEM EDOMÉX.</h4>
                                     </div>
                                 </div>
                             </a>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -1237,16 +1251,17 @@
             <div class="content container" style="color: white">
                 <div class="projects">
                 <h2 class="section-title wow fadeInRight" style="font-weight:900; font-size: 40px;text-align: left;">Contacto del Área de Protección de Datos Personales</h2>
-                    <p class="lead wow fadeInRight">Calle de Pino Suárez sin número, actualmente Carretera Toluca-Ixtapan #111, Colonia La Michoacana; Metepec Estado de México, C.P. 52166 </p>
+                    <p class="lead wow fadeInRight">República de Belice #109 Colonia Américas C.P. 50130 Toluca de Lerdo </p>
                     <div id="map" class="map-2"></div>
+                  
                     <div class="row">
                     <div class="col-md-5 padding-top" style="text-align: center;">
                         <h4 style="font-weight: bolder;">Teléfono</h4>
-                        <p><a onMouseOver="this.style.cssText='color: white'" onMouseOut="this.style.cssText='color: white'" target="_blank" href="tel:+7229147192">01 (722) 226 1980</a>
+                        <p><a onMouseOver="this.style.cssText='color: white'" onMouseOut="this.style.cssText='color: white'" target="_blank" href="tel:+7229147192">01 (722) 9 14 71 92</a>
                     </div>
                     <div class="col-md-5 padding-top" style="text-align: center;">
-                    CAT: <a onMouseOver="this.style.cssText='color: white'" onMouseOut="this.style.cssText='color: white'" target="_blank" href="tel:+01800 821 04 41">01800 821 04 41</a></p>
-                    <br> <a onMouseOver="this.style.cssText='color: white'" onMouseOut="this.style.cssText='color: white'" target="_blank"target="_blank" href="https://www.infoem.org.mx/es/contenido/inicio">https://www.infoem.org.mx/es/contenido/inicio</a>
+                    
+                    <br> <a onMouseOver="this.style.cssText='color: white'" onMouseOut="this.style.cssText='color: white'" target="_blank"target="_blank" href="https://partidoverdeedomex.org">https://partidoverdeedomex.org</a>
                     </div>
                     </div>
                 </div>
@@ -1273,7 +1288,7 @@
             </div>
             <!--Text-->
             <div class="col-lg-4 text-center text-lg-center">
-                <p class="company-about fadeIn">© 2021 Partido verde del Estado de México
+                <p class="company-about fadeIn">© 2022 Partido verde del Estado de México
                 </p>
             </div>
             <!--Social-->
@@ -1329,6 +1344,7 @@
 
 <script src="{{asset ('transparencia/vendor/js/contact_us.js')}}"></script>
 <script src="{{asset ('transparencia/js/script.js')}}"></script>
+<script src="{{asset ('transparencia/js/script1.js')}}"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
 
@@ -1338,7 +1354,7 @@
 {{-- Charts --}}
 <!-- <script src="https://cdn.jsdelivr.net/npm/britecharts@2/dist/bundled/britecharts.min.js"></script> -->
 <!-- {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> --}} -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.min.js" integrity="sha512-VMsZqo0ar06BMtg0tPsdgRADvl0kDHpTbugCBBrL55KmucH6hP9zWdLIWY//OTfMnzz6xWQRxQqsUFefwHuHyg==" crossorigin="anonymous"></script>
+<script src="https://maps.google.com/maps/api/js?key=AIzaSyC4gTAuib1crrHv7SdAxcG2dUzZGz2leV8" integrity="sha512-VMsZqo0ar06BMtg0tPsdgRADvl0kDHpTbugCBBrL55KmucH6hP9zWdLIWY//OTfMnzz6xWQRxQqsUFefwHuHyg==" crossorigin="anonymous"></script>
 <!-- <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script> -->
 
 <!-- MAPA -->

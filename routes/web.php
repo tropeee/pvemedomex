@@ -75,6 +75,11 @@ Route::get('/convocatoria-1', function () {
     return view('convocatorias.conv1');
 })->name('Conv1');
 
+// interes publico
+Route::get('/interes-publico', function () {
+    return view('transparencia.interes-publico');
+})->name('Interes-Publico');
+
 
 // Transparencia -----------------------------------------------------------------------------|
 Route::get('/gestion-documental', function () {

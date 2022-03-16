@@ -53,6 +53,7 @@
           <li class="active">
             <a  href="{{ route('Inicio') }}">Inicio</a>
           </li>
+          <li><a href="{{ route('Interes-Publico') }}">Interés Publico</a></li>
           <li>
             <a href="#">Nosotros</a>
             <ul>
@@ -130,9 +131,8 @@
         <a class="brand" target="_blank" href="https://bit.ly/2U1yUuS"><img class="brand-img-white" src="images\logos verde 15 de septiembre\logoPNT.png"  width="70" height="40"><img class="brand-img" src="images\logos verde 15 de septiembre\logoPNT NEGRO.png"  width="70" height="40"></a>
         <a class="brand" target="_blank" href="https://www.sarcoem.org.mx/"><img class="brand-img-white" src="images\logos verde 15 de septiembre\logoSarcomex.png"  width="70" height="40"><img class="brand-img" src="images\logos verde 15 de septiembre\logoSarcomex negro.png"  width="70" height="40"></a>
         <a class="brand" target="_blank" href="http://www.ipomex.org.mx/"><img class="brand-img-white" src="images\logos verde 15 de septiembre\ipom.png"  width="65" height="25"><img class="brand-img" src="images\logos verde 15 de septiembre\logoIpomex negro.png"  width="65" height="25"></a>    
-       <a  target="_blank" href="http://www.ipomex.org.mx/" ><FONT SIZE=4><font face="Comic Sans MS,Arial,Verdana"><b>Información de Interés Público</b></a> 
-      </div>
-      
+       <a  target="_blank" href="{{route ('Interes-Publico')}}" ><FONT SIZE=4><font face="Comic Sans MS,Arial,Verdana"><b>Información de Interés Público</b></a> 
+          
         
     </header>
 
@@ -510,6 +510,7 @@
     </div>
   </div>
 
+  
 
 <!-- jQuery -->
 
