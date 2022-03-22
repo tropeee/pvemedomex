@@ -29,7 +29,7 @@ Route::get('/', function () {
 })->name('Inicio');
 
 Route::get('/estructura', [CandidateController::class, 'secretarios'])->name('Estructura');
-// Route::get('/secretarios/{slug}', [CandidateController::class, 'showsecretarios'])->name('Estructura.show');
+ //Route::get('/secretarios/{slug}', [CandidateController::class, 'showsecretarios'])->name('Estructura.show');
 
 Route::get('/historia', function () {
     return view('historia');

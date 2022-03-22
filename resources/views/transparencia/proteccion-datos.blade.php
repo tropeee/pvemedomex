@@ -288,8 +288,8 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
-                    <center>
+                    </div> <br>
+                    <center> <h2> <b> VISITANTES:</b></h2> <br>
     <!-- Start of CuterCounter Code -->
 <a href="https://www.webfreecounter.com/" target="_blank"><img src="https://www.cutercounter.com/hits.php?id=hmvxaoxdf&nd=5&style=115" border="0" alt="best free website hit counter"></a>
 <!-- End of CuterCounter Code --></center>
@@ -334,7 +334,7 @@
                             </div>
                         </div>
                         <div style="align-self:center;">
-                              <center><a href="https://micrositios.inai.org.mx/vulnerometro/" target="_blank"><img width="50%" class="img-responsive" src="{{ asset('images\portales\vulnerometro-transparente.webp')}}"></a> </center>  
+                              <center>                                  <a href="https://micrositios.inai.org.mx/vulnerometro/" target="_blank"><img width="50%" class="img-responsive" src="{{ asset('images\portales\vulnerometro-transparente.webp')}}"></a> </center>  
                             </div>
                 </div>
             </div>
