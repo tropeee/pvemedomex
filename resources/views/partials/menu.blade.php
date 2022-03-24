@@ -6,6 +6,7 @@
       <li class="active">
         <a  href="{{ route('Inicio') }}">Inicio</a>
       </li>
+       <li><a href="{{ route('Interes-Publico') }}">Interés Público</a></li>
       <li>
         <a href="works.html">Nosotros</a>
         <ul>
@@ -51,6 +52,6 @@
         <a href="" class="icon ion-social-facebook"></a>
         <a href="" class="icon ion-social-instagram"></a>
       </div>
-      <div class="copy">© Partido Verde Estado de México<br> BitGob</div>
+      <div class="copy">© Partido Verde Estado de México<br></div>
     </div>
   </div>

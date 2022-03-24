@@ -10,7 +10,7 @@
         </a>
       </div>
       <div class="flex-item">
-        <div class="inline-block">© Partido Verde EDOMEX - 2021</div>
+        <div class="inline-block">© Partido Verde EDOMEX - {{ date('Y') }}</div>
       </div>
       {{-- <div class="flex-item">
         <ul>

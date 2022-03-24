@@ -98,7 +98,7 @@
               <a href="" class="icon ion-social-facebook"></a>
               <a href="" class="icon ion-social-instagram"></a>
             </div>
-            <div class="copy">© Partido Verde 2021. Estado de México<br> BitGob</div>
+            <div class="copy">© Partido Verde {{ date('Y') }}. Estado de México<br> </div>
           </div>
         </div>
 

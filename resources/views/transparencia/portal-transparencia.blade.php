@@ -92,6 +92,7 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item active"><a class="nav-link scroll" href="{{route ('Inicio')}}">INICIO</a></li>
+                                    <li class="nav-item active"><a class="nav-link scroll" href="{{ route('Interes-Publico') }}">INTERÉS PÚBLICO</a></li>
                                     <li class="nav-item dropdown"><a class="nav-link scroll dropdown-toggle" data-toggle="dropdown" href="#">NOSOTROS<b class="caret"></b></a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item"><a class="nav-item" href="{{route('Estructura')}}">ESTRUCTURA</a></li>
@@ -933,7 +934,7 @@
             </div>
             <!--Text-->
             <div class="col-lg-4 text-center text-lg-center">
-                <p class="company-about fadeIn">© 2021 Partido verde del Estado de México
+                <p class="company-about fadeIn">© {{ date('Y') }} Partido verde del Estado de México
                 </p>
             </div>
             <!--Social-->

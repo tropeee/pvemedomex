@@ -476,7 +476,7 @@ input[type=radio]:checked~label.star svg path {
             </div>
             <!--Text-->
             <div class="col-lg-4 text-center text-lg-center">
-                <p class="company-about fadeIn">© 2022 Partido verde del Estado de México
+                <p class="company-about fadeIn">© {{ date('Y') }} Partido verde del Estado de México
                 </p>
             </div>
             <!--Social-->
