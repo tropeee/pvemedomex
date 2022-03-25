@@ -48,7 +48,7 @@
               <div class="grid-items js-isotope js-grid-items">
                 <div class="grid-item building js-isotope-item js-grid-item">
                   <div class="project-item item-shadow">
-                    <img alt="" class="img-responsive" src="{{ asset('images/marco-normativo/leydearchivos.jpg')}}">
+                    <img alt="" class="img-responsive" src="{{ asset('images\seguridad-de-datos.png')}}">
                     <a style="text-decoration: none;" href="#">
                     <div class="project-hover">
                       <div class="project-hover-content">
@@ -62,7 +62,7 @@
 
                 <div class="grid-item building js-isotope-item js-grid-item">
                   <div class="project-item item-shadow">
-                    <img alt="" class="img-responsive" src="{{ asset('images/marco-normativo/leydearchivos.jpg')}}">
+                    <img alt="" class="img-responsive" src="{{ asset('images\seguridad-de-datos.png')}}">
                     <a style="text-decoration: none;"  href="">
                     <div class="project-hover">
                       <div class="project-hover-content">
@@ -76,7 +76,7 @@
 
                 <div class="grid-item building js-isotope-item js-grid-item">
                     <div class="project-item item-shadow">
-                      <img alt="" class="img-responsive" src="{{ asset('images/marco-normativo/leydearchivos.jpg')}}">
+                      <img alt="" class="img-responsive" src="{{ asset('images\seguridad-de-datos.png')}}">
                       <a style="text-decoration: none;" href="">
                       <div class="project-hover">
                         <div class="project-hover-content">
@@ -89,7 +89,7 @@
                   </div>
                 <div class="grid-item building js-isotope-item js-grid-item">
                     <div class="project-item item-shadow">
-                      <img alt="" class="img-responsive" src="{{ asset('images/marco-normativo/leydearchivos.jpg')}}">
+                      <img alt="" class="img-responsive" src="{{ asset('images\seguridad-de-datos.png')}}">
                       <a style="text-decoration: none;" href="">
                       <div class="project-hover">
                         <div class="project-hover-content">
@@ -102,7 +102,7 @@
                   </div>
                 <div class="grid-item building js-isotope-item js-grid-item">
                     <div class="project-item item-shadow">
-                      <img alt="" class="img-responsive" src="{{ asset('images/marco-normativo/leydearchivos.jpg')}}">
+                      <img alt="" class="img-responsive" src="{{ asset('images\seguridad-de-datos.png')}}">
                       <a style="text-decoration: none;" href="">
                       <div class="project-hover">
                         <div class="project-hover-content">
@@ -115,7 +115,7 @@
                   </div>
                 <div class="grid-item building js-isotope-item js-grid-item">
                     <div class="project-item item-shadow">
-                      <img alt="" class="img-responsive" src="{{ asset('images/marco-normativo/leydearchivos.jpg')}}">
+                      <img alt="" class="img-responsive" src="{{ asset('images\seguridad-de-datos.png')}}">
                       <a style="text-decoration: none;" href="">
                       <div class="project-hover">
                         <div class="project-hover-content">

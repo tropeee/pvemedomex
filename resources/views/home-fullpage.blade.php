@@ -53,7 +53,7 @@
           <li class="active">
             <a  href="{{ route('Inicio') }}">Inicio</a>
           </li>
-          <li><a href="{{ route('Interes-Publico') }}">Interés Público</a></li>
+          <li><a href="{{ route('Interes-Publico') }}">Información de Interés Público</a></li>
           <li>
             <a href="#">Nosotros</a>
             <ul>

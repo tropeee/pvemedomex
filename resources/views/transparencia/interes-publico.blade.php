@@ -204,9 +204,17 @@ input[type=radio]:checked~label.star svg path {
                             <li class="nav-item">
                                 <a class="nav-link scroll" href="{{route ('Noticias')}}">NOTICIAS</a>
                             </li>
+                                  
+                                    <li class="nav-item" style="font-size: smaller;"><a class="nav-link scroll" href="{{route('Transparencia')}}">PORTAL DE TRANSPARENCIA</a></li>
+                                        <li class="nav-item" style="font-size: smaller;"><a class="nav-link scroll" href="{{route('Unidad-Transparencia')}}">UNIDAD DE TRANSPARENCIA</a></li>
+                                        <li class="nav-item" style="font-size: smaller;"><a class="nav-link scroll" href="{{route('Proteccion-Datos')}}">PROTECCIÓN DE DATOS PERSONALES</a></li>
+                                        <li class="nav-item" style="font-size: smaller;"><a class="nav-link scroll" href="{{route('Archivo')}}">GESTIÓN DOCUMENTAL (ARCHIVO)</a></li>
+                            
+
                             <li class="nav-item">
                                 <a class="nav-link scroll" href="{{route ('Ecologista')}}">PUBLICACIONES</a>
                             </li>
+
                             <li class="nav-item">
                                 <a class="nav-link scroll" href="{{route ('Atencion')}}">ATENCIÓN</a>
                             </li>

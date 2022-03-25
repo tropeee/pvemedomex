@@ -863,7 +863,7 @@
                         </div>
                         
                         <div class="cbp-item web logo" style="max-width: 450px;">
-                            <a target="blank" href="{{ asset('pdf\avisos-privacidad\Sistema Estatal de Registro de RG y de C PVEM enero 22')}}" class="cbp-caption" data-title="">
+                            <a target="blank" href="{{ asset('pdf\avisos-privacidad\Sistema Estatal de Registro de RG y de C PVEM enero 22.pdf')}}" class="cbp-caption" data-title="">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="images\seguridad-de-datos.png" alt="img">
                                 </div>
