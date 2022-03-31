@@ -26,7 +26,7 @@
           <li><a href="{{ route('Inicio') }}">Inicio</a></li>
           <li><a href="{{ route('Afiliacion') }}">Afiliación</a></li>
           <li><a href="{{ route('Atencion') }}">Atención</a></li>
-          <li><a href="{{ route('Avisos-Privacidad') }}">Avisos de Privacidad</a></li>
+          <li><a href="{{ route('Proteccion-Datos') }}">Avisos de Privacidad</a></li>
         </ul>
       </div>
       <div class="flex-item">
