@@ -292,17 +292,17 @@ input[type=radio]:checked~label.star svg path {
         <div class="section-heading">
             <div class="row">
                 <div class="col-lg-6 wow fadeInUp text-center text-lg-left" data-wow-delay="300ms">
-                   <h4 class="heading" style="    margin-bottom: -42px;font-size: 16px;">Descarga de archivos de interés público. </h4>
+                   <h4 class="heading" style="    margin-bottom: -42px;font-size: 13px;">Información Administrativa, Económica y Social, Medio Ambiente, Social. </h4>
                   
                 </div>
                 
                 <div class="col-md-12 pt-5">
                 <div class="title-hr" ><div class="title-hr2" ></div></div>
 
-                    <div id="js-grid-mosaic" class="cbp cbp-l-grid-mosaic" style="margin-left: 10%;">
+                    <div id="js-grid-mosaic" class="cbp cbp-l-grid-mosaic" style="margin-left: 0%;">
                       
                         
-                        <div class="cbp-item web logo" style="max-width: 350px;">
+                        <div class="cbp-item web logo" style="max-width: 300px;">
                             <a target="blank" href="{{ asset('pdf\interes publico\COSTOS.pdf')}}" class="cbp-caption" data-title="">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="images\costos-thumb.jpg"  alt="img">
@@ -319,11 +319,10 @@ input[type=radio]:checked~label.star svg path {
                                 </div>
                             </a>
                         </div>
-                        
                         <div class="cbp-item web logo" style="max-width: 350px;">
-                            <a target="blank" href="{{ asset('pdf/interes publico/PLAN RESIDUOS.pdf') }}" class="cbp-caption" data-title="">
+                            <a target="blank" href="{{ asset('pdf/interes publico/calendario-2022.pdf') }}" class="cbp-caption" data-title="">
                                 <div class="cbp-caption-defaultWrap">
-                                    <img src="images\residuos-thumb.jpg" alt="img">
+                                    <img src="images\calendario-thumb.jpg" alt="img">
                                 </div>
                                 <div class="cbp-caption-activeWrap portfolio-hover-effect d-flex align-items-end">
                                     <!-- <div class="portfolio-inner-content">
@@ -331,13 +330,33 @@ input[type=radio]:checked~label.star svg path {
                                         <span></span>
                                     </div> -->
                                     <div class="hover-text">
-                                       <!-- <h4 class="p-hover-title">GUÍA ORIENTADORA</h4>-->
-                                        <p class="p-hover-des"> Plan Residuos Electorales 2021.</p>
+                                       <!-- <h4 class="p-hover-title">GUÍA ORIENTADORA</h4> -->
+                                        <p class="p-hover-des">Calendario oficial en materia de Transparencia, Acceso a la Información Pública y Protección de Datos Personales</p>
                                     </div>
                                 </div>
                             </a>
                         </div>
-                          <div class="cbp-item web logo" style="max-width: 350px;">
+                        <div class="cbp-item web logo" style="max-width: 0px;">     </div>
+                        
+                         <div class="cbp-item web logo" style="max-width: 300px;">
+                            <a target="blank" href="{{ asset('pdf/interes publico/sm.pdf') }}" class="cbp-caption" data-title="">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="images\sm-thumb.jpg" alt="img">
+                                </div>
+                                <div class="cbp-caption-activeWrap portfolio-hover-effect d-flex align-items-end">
+                                    <!-- <div class="portfolio-inner-content">
+                                        <span></span>
+                                        <span></span>
+                                    </div> -->
+                                    <div class="hover-text">
+                                       <!-- <h4 class="p-hover-title">GUÍA ORIENTADORA</h4> -->
+                                        <p class="p-hover-des">Protocolo para Prevenir, Erradicar y Sancionar la Violencia Política de Género del Partido Verde Ecologista de México en el Estado de México.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                         
+                            <div class="cbp-item web logo" style="max-width: 300px;">
                             <a target="blank" href="{{ asset('pdf/interes publico/GUIA ATENCIÓN.pdf') }}" class="cbp-caption" data-title="">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="images\guia-atencion-thumb.jpg" alt="img">
@@ -355,7 +374,43 @@ input[type=radio]:checked~label.star svg path {
                                 </div>
                             </a>
                         </div>
-                          <div class="cbp-item web logo" style="max-width: 350px;">
+
+                         <div class="cbp-item web logo" style="max-width: 0px;">     </div>
+
+                         <div class="cbp-item web logo" style="max-width: 285px;">
+                            <a target="blank" href="{{ asset('pdf/interes publico/PLAN RESIDUOS.pdf') }}" class="cbp-caption" data-title="">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="images\residuos-thumb.jpg" alt="img">
+                                </div>
+                                <div class="cbp-caption-activeWrap portfolio-hover-effect d-flex align-items-end">
+                                  
+                                    <div class="hover-text">
+                                       
+                                        <p class="p-hover-des"> Plan Residuos Electorales 2021.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                         <div class="cbp-item web logo" style="max-width: 300px;">
+                            <a target="blank" href="{{ asset('pdf/interes publico/PROPAGANDA.pdf') }}" class="cbp-caption" data-title="">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="images\propaganda-thumb.jpg" alt="img">
+                                </div>
+                                <div class="cbp-caption-activeWrap portfolio-hover-effect d-flex align-items-end">
+                                    <!-- <div class="portfolio-inner-content">
+                                        <span></span>
+                                        <span></span>
+                                    </div> -->
+                                    <div class="hover-text">
+                                        <!--<h4 class="p-hover-title">GUÍA ORIENTADORA</h4> -->
+                                        <p class="p-hover-des">Plan de reciclaje de la Propaganda Electoral.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                          <div class="cbp-item web logo" style="max-width: 300px;">
                             <a target="blank" href="{{ asset('pdf/interes publico/PLAN DE RECICLAJE NEXTLALPAN.pdf') }}" class="cbp-caption" data-title="">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="images\reciclaje-thumb.jpg" alt="img">
@@ -372,40 +427,8 @@ input[type=radio]:checked~label.star svg path {
                                 </div>
                             </a>
                         </div>
-                          <div class="cbp-item web logo" style="max-width: 350px;">
-                            <a target="blank" href="{{ asset('pdf/interes publico/calendario-2022.pdf') }}" class="cbp-caption" data-title="">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="images\calendario-thumb.jpg" alt="img">
-                                </div>
-                                <div class="cbp-caption-activeWrap portfolio-hover-effect d-flex align-items-end">
-                                    <!-- <div class="portfolio-inner-content">
-                                        <span></span>
-                                        <span></span>
-                                    </div> -->
-                                    <div class="hover-text">
-                                       <!-- <h4 class="p-hover-title">GUÍA ORIENTADORA</h4> -->
-                                        <p class="p-hover-des">Calendario oficial en materia de Transparencia, Acceso a la Información Pública y Protección de Datos Personales</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="cbp-item web logo" style="max-width: 350px;">
-                            <a target="blank" href="{{ asset('pdf/interes publico/sm.pdf') }}" class="cbp-caption" data-title="">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="images\sm-thumb.jpg" alt="img">
-                                </div>
-                                <div class="cbp-caption-activeWrap portfolio-hover-effect d-flex align-items-end">
-                                    <!-- <div class="portfolio-inner-content">
-                                        <span></span>
-                                        <span></span>
-                                    </div> -->
-                                    <div class="hover-text">
-                                       <!-- <h4 class="p-hover-title">GUÍA ORIENTADORA</h4> -->
-                                        <p class="p-hover-des">Protocolo para Prevenir, Erradicar y Sancionar la Violencia Política de Género del Partido Verde Ecologista de México en el Estado de México.</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
+                          
+                       
                     </div>
                 </div>
         </div>
