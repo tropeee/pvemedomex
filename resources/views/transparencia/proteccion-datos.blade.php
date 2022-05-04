@@ -238,7 +238,6 @@
   
 </section>
 <!--Team sec End-->
-
 <section class="portfolio-sec company-portfolio-section padding-top">
     <div class="container">
         <div class="section-heading">
@@ -839,7 +838,7 @@
 <!--main page content end-->
 
 <!--portfolio section start-->
-<section class="portfolio-sec company-portfolio-section padding-bottom" >
+<section class="portfolio-sec company-portfolio-section padding-bottom" id="avisos" name="avisos">
     <div class="container">
         <div class="section-heading">
             <div class="row">

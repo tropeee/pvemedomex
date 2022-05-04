@@ -503,7 +503,9 @@
                             </div>
                           </div>
                           <br>
-                          <div id="map" class="map-2"></div>
+                          <div id="map" class="map-2"></div> <br>
+                         
+                          <center> <h4><a href="/proteccion-de-datos-personales#avisos"><strong class="text-dark">Avisos de Privacidad</strong></a> </h4></center>
                         </div>
                       </div>
                     </div>
