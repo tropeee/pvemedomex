@@ -361,6 +361,11 @@
                         </div>
                         <div class="col-md-5 col-lg-5  col-md-offset-1 col-lg-offset-2 ">
                           <div class="review-carousel owl-carousel">
+                            <div class="review-carousel-item">
+                                <a target="blank" href="https://issuu.com/elecologista/docs/el_ecologista_17"><img style="width: 55% !important" src="images/ecologista/VOLUMEN17.jpg"></a>
+                                Vol. 17
+                            </div>
+
                           <div class="review-carousel-item">
                                 <a target="blank" href="https://issuu.com/elecologista/docs/ecologista_diciembre_2021"><img style="width: 55% !important" src="images/ecologista/13.jpg"></a>
                                 Vol. 16
