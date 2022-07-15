@@ -22,10 +22,10 @@ https://partidoverdeedomex.org/candidatas-y-candidatos
         <div class="container"><h1>Candidatas y Candidatos</h1></div>
     </main>
 
-
+<!--
     <section class="section">
         <div class="container">
-          <!-- FEDERALES INICIO -->
+         
           <div class="row">
             <div class="col-md-3">
               <div class="section-info">
@@ -83,11 +83,11 @@ https://partidoverdeedomex.org/candidatas-y-candidatos
 
               </div>
             </div>
-                  <!-- FEDERALES FIN -->
+                
 
           </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="section">
         <div class="container">
