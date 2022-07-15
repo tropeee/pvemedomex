@@ -63,12 +63,12 @@
             </ul>
           </li>
           <li>
-            <a href="{{ route('Candidatos') }}">Candidatos</a>
+            <a href="{{ route('Candidatos') }}">Gobiernos Verdes</a>
           </li>
           <li>
             <a href="{{ route('Noticias') }}">Noticias</a>
           </li>
-          <li>
+         <!-- <li>
             <a href="#">Transparencia</a>
             <ul>
               <li><a href="{{ route('Transparencia') }}">Portal de Transparencia</a></li>
@@ -76,8 +76,8 @@
               <li><a href="{{route ('Proteccion-Datos')}}">Protección de Datos Personales</a></li>
               <li><a href="{{route ('Archivo')}}">Gestión Documental (Archivo)</a></li>
             </ul>
-          </li>
-          <li>
+          </li>-->
+          <li> 
             <a href="#">Publicaciones</a>
             <ul>
               <li><a href="{{ route('Ecologista') }}">El Ecologista</a></li>
@@ -130,8 +130,9 @@
         <a class="brand" target="_blank" href="https://bit.ly/3p7w6KO"> <img class="brand-img-white" src="images\logos verde 15 de septiembre\logoIpomex.png"  width="80" height="50"><img class="brand-img" src="images\logos verde 15 de septiembre\logoDenuncias1 negro.png"  width="80" height="50"></a>
         <a class="brand" target="_blank" href="https://bit.ly/2U1yUuS"><img class="brand-img-white" src="images\logos verde 15 de septiembre\logoPNT.png"  width="70" height="40"><img class="brand-img" src="images\logos verde 15 de septiembre\logoPNT NEGRO.png"  width="70" height="40"></a>
         <a class="brand" target="_blank" href="https://www.sarcoem.org.mx/"><img class="brand-img-white" src="images\logos verde 15 de septiembre\logoSarcomex.png"  width="70" height="40"><img class="brand-img" src="images\logos verde 15 de septiembre\logoSarcomex negro.png"  width="70" height="40"></a>
-        <a class="brand" target="_blank" href="http://www.ipomex.org.mx/"><img class="brand-img-white" src="images\logos verde 15 de septiembre\ipom.png"  width="65" height="25"><img class="brand-img" src="images\logos verde 15 de septiembre\logoIpomex negro.png"  width="65" height="25"></a>    
-       <a  target="_blank" href="{{route ('Interes-Publico')}}" ><FONT SIZE=4><font face="Comic Sans MS,Arial,Verdana"><b>Información de Interés Público</b></a> 
+        <a class="brand" target="_blank" href="http://www.ipomex.org.mx/"><img class="brand-img-white" src="images\logos verde 15 de septiembre\ipom.png"  width="65" height="25"><img class="brand-img" src="images\logos verde 15 de septiembre\logoIpomex negro.png"  width="65" height="25"></a>  &nbsp;    
+         <a  target="_blank" href="{{route('Transparencia')}}" ><FONT SIZE=4><font face="Calibri"><b>TRANSPARENCIA </b>  &nbsp;</a> 
+        <a  target="_blank" href="{{route('Transparencia')}}" ><FONT SIZE=4><font face="Calibri"><b> COVID-19</b></a>
           
         
     </header>

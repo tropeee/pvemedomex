@@ -32,136 +32,7 @@ https://partidoverdeedomex.org/candidatas-y-candidatos
                 <div class="title-hr"></div>
                 <div class="info-title">Diputación Federal:</div>
                 <br>
-                {{-- <div style="font-size:75% !important" class="info-title">Municipio:</div>
-                <br> --}}
-                {{-- <select class="selectpicker" id="municipio" name="municipio">
-                    <option value="Todos">Todos</option>
-                    <option value="Acambay">Acambay</option>
-                    <option value="Acolman">Acolman</option>
-                    <option value="Aculco">Aculco</option>
-                    <option value="Almoloya de Alquisiras">Almoloya de Alquisiras</option>
-                    <option value="Almoloya de Juárez">Almoloya de Juárez</option>
-                    <option value="Almoloya del Río">Almoloya del Río</option>
-                    <option value="Amanalco">Amanalco</option>
-                    <option value="Amatepec">Amatepec</option>
-                    <option value="Amecameca">Amecameca</option>
-                    <option value="Apaxco">Apaxco</option>
-                    <option value="Atenco">Atenco</option>
-                    <option value="Atizapán">Atizapán</option>
-                    <option value="Atizapán de Zaragoza">Atizapán de Zaragoza</option>
-                    <option value="Atlacomulco">Atlacomulco</option>
-                    <option value="Atlautla">Atlautla</option>
-                    <option value="Axapusco">Axapusco</option>
-                    <option value="Ayapango">Ayapango</option>
-                    <option value="Calimaya">Calimaya</option>
-                    <option value="Capulhuac">Capulhuac</option>
-                    <option value="Coacalco de Berriozábal">Coacalco de Berriozábal</option>
-                    <option value="Coatepec Harinas">Coatepec Harinas</option>
-                    <option value="Cocotitlán">Cocotitlán</option>
-                    <option value="Coyotepec">Coyotepec</option>
-                    <option value="Cuautitlán">Cuautitlán</option>
-                    <option value="Chalco">Chalco</option>
-                    <option value="Chapa de Mota">Chapa de Mota</option>
-                    <option value="Chapultepec">Chapultepec</option>
-                    <option value="Chiautla">Chiautla</option>
-                    <option value="Chicoloapan">Chicoloapan</option>
-                    <option value="Chiconcuac">Chiconcuac</option>
-                    <option value="Chimalhuacán">Chimalhuacán</option>
-                    <option value="Donato Guerra">Donato Guerra</option>
-                    <option value="Ecatepec de Morelos">Ecatepec de Morelos</option>
-                    <option value="Ecatzingo">Ecatzingo</option>
-                    <option value="Huehuetoca">Huehuetoca</option>
-                    <option value="Hueypoxtla">Hueypoxtla</option>
-                    <option value="Huixquilucan">Huixquilucan</option>
-                    <option value="Isidro Fabela">Isidro Fabela</option>
-                    <option value="Ixtapaluca">Ixtapaluca</option>
-                    <option value="Ixtapan de la Sal">Ixtapan de la Sal</option>
-                    <option value="Ixtapan del Oro">Ixtapan del Oro</option>
-                    <option value="Ixtlahuaca">Ixtlahuaca</option>
-                    <option value="Xalatlaco">Xalatlaco</option>
-                    <option value="Jaltenco">Jaltenco</option>
-                    <option value="Jilotepec">Jilotepec</option>
-                    <option value="Jilotzingo">Jilotzingo</option>
-                    <option value="Jiquipilco">Jiquipilco</option>
-                    <option value="Jocotitlán">Jocotitlán</option>
-                    <option value="Joquicingo">Joquicingo</option>
-                    <option value="Juchitepec">Juchitepec</option>
-                    <option value="Lerma">Lerma</option>
-                    <option value="Malinalco">Malinalco</option>
-                    <option value="Melchor Ocampo">Melchor Ocampo</option>
-                    <option value="Metepec">Metepec</option>
-                    <option value="Mexicaltzingo">Mexicaltzingo</option>
-                    <option value="Morelos">Morelos</option>
-                    <option value="Naucalpan de Juárez">Naucalpan de Juárez</option>
-                    <option value="Nezahualcóyotl">Nezahualcóyotl</option>
-                    <option value="Nextlalpan">Nextlalpan</option>
-                    <option value="Nicolás Romero">Nicolás Romero</option>
-                    <option value="Nopaltepec">Nopaltepec</option>
-                    <option value="Ocoyoacac">Ocoyoacac</option>
-                    <option value="Ocuilan">Ocuilan</option>
-                    <option value="El Oro">El Oro</option>
-                    <option value="Otumba">Otumba</option>
-                    <option value="Otzoloapan">Otzoloapan</option>
-                    <option value="Otzolotepec">Otzolotepec</option>
-                    <option value="Ozumba">Ozumba</option>
-                    <option value="Papalotla">Papalotla</option>
-                    <option value="La Paz">La Paz</option>
-                    <option value="Polotitlán">Polotitlán</option>
-                    <option value="Rayón">Rayón</option>
-                    <option value="San Antonio la Isla">San Antonio la Isla</option>
-                    <option value="San Felipe del Progreso">San Felipe del Progreso</option>
-                    <option value="San Martín de las Pirámides">San Martín de las Pirámides</option>
-                    <option value="San Mateo Atenco">San Mateo Atenco</option>
-                    <option value="San Simón de Guerrero">San Simón de Guerrero</option>
-                    <option value="Santo Tomás">Santo Tomás</option>
-                    <option value="Soyaniquilpan de Juárez">Soyaniquilpan de Juárez</option>
-                    <option value="Sultepec">Sultepec</option>
-                    <option value="Tecámac">Tecámac</option>
-                    <option value="Tejupilco">Tejupilco</option>
-                    <option value="Temamatla">Temamatla</option>
-                    <option value="Temascalapa">Temascalapa</option>
-                    <option value="Temascalcingo">Temascalcingo</option>
-                    <option value="Temascaltepec">Temascaltepec</option>
-                    <option value="Temoaya">Temoaya</option>
-                    <option value="Tenancingo">Tenancingo</option>
-                    <option value="Tenango del Aire">Tenango del Aire</option>
-                    <option value="Tenango del Valle">Tenango del Valle</option>
-                    <option value="Teoloyucan">Teoloyucan</option>
-                    <option value="Teotihuacán">Teotihuacán</option>
-                    <option value="Tepetlaoxtoc">Tepetlaoxtoc</option>
-                    <option value="Tepetlixpa">Tepetlixpa</option>
-                    <option value="Tepotzotlán">Tepotzotlán</option>
-                    <option value="Tequixquiac">Tequixquiac</option>
-                    <option value="Texcaltitlán">Texcaltitlán</option>
-                    <option value="Texcalyacac">Texcalyacac</option>
-                    <option value="Texcoco">Texcoco</option>
-                    <option value="Tezoyuca">Tezoyuca</option>
-                    <option value="Tianguistenco">Tianguistenco</option>
-                    <option value="Timilpan">Timilpan</option>
-                    <option value="Tlalmanalco">Tlalmanalco</option>
-                    <option value="Tlalnepantla de Baz">Tlalnepantla de Baz</option>
-                    <option value="Tlatlaya">Tlatlaya</option>
-                    <option value="Toluca">Toluca</option>
-                    <option value="Tonatico">Tonatico</option>
-                    <option value="Tultepec">Tultepec</option>
-                    <option value="Tultitlán">Tultitlán</option>
-                    <option value="Valle de Bravo">Valle de Bravo</option>
-                    <option value="Villa de Allende">Villa de Allende</option>
-                    <option value="Villa del Carbón">Villa del Carbón</option>
-                    <option value="Villa Guerrero">Villa Guerrero</option>
-                    <option value="Villa Victoria">Villa Victoria</option>
-                    <option value="Xonacatlán">Xonacatlán</option>
-                    <option value="Zacazonapan">Zacazonapan</option>
-                    <option value="Zacualpan">Zacualpan</option>
-                    <option value="Zinacantepec">Zinacantepec</option>
-                    <option value="Zumpahuacán">Zumpahuacán</option>
-                    <option value="Zumpango">Zumpango</option>
-                    <option value="Cuautitlán Izcalli">Cuautitlán Izcalli</option>
-                    <option value="Valle de Chalco Solidaridad">Valle de Chalco Solidaridad</option>
-                    <option value="Luvianos">Luvianos</option>
-                    <option value="San José del Rincón">San José del Rincón</option>
-                    <option value="Tonanitla">Tonanitla</option>
-                </select> --}}
+                
                 <select class="selectpicker" id="distrito" name="distrito">
                     <option value="Todos">Distrito</option>
                     <option value="1">01</option>
@@ -304,131 +175,12 @@ https://partidoverdeedomex.org/candidatas-y-candidatos
                 <br>
                 <select class="selectpicker2" id="distrito2" name="distrito2">
                     <option value="Todos">Municipio</option>
-                    <option value="Acambay">Acambay</option>
-                    <option value="Acolman">Acolman</option>
-                    <option value="Aculco">Aculco</option>
-                    <option value="Almoloya de Alquisiras">Almoloya de Alquisiras</option>
-                    <option value="Almoloya de Juárez">Almoloya de Juárez</option>
-                    <option value="Almoloya del Río">Almoloya del Río</option>
-                    <option value="Amanalco">Amanalco</option>
-                    <option value="Amatepec">Amatepec</option>
-                    <option value="Amecameca">Amecameca</option>
-                    <option value="Apaxco">Apaxco</option>
-                    <option value="Atenco">Atenco</option>
-                    <option value="Atizapán">Atizapán</option>
-                    <option value="Atizapán de Zaragoza">Atizapán de Zaragoza</option>
-                    <option value="Atlacomulco">Atlacomulco</option>
-                    <option value="Atlautla">Atlautla</option>
-                    <option value="Axapusco">Axapusco</option>
-                    <option value="Ayapango">Ayapango</option>
-                    <option value="Calimaya">Calimaya</option>
-                    <option value="Capulhuac">Capulhuac</option>
-                    <option value="Coacalco de Berriozábal">Coacalco de Berriozábal</option>
-                    <option value="Coatepec Harinas">Coatepec Harinas</option>
-                    <option value="Cocotitlán">Cocotitlán</option>
-                    <option value="Coyotepec">Coyotepec</option>
-                    <option value="Cuautitlán">Cuautitlán</option>
-                    <option value="Chalco">Chalco</option>
-                    <option value="Chapa de Mota">Chapa de Mota</option>
-                    <option value="Chapultepec">Chapultepec</option>
-                    <option value="Chiautla">Chiautla</option>
-                    <option value="Chicoloapan">Chicoloapan</option>
-                    <option value="Chiconcuac">Chiconcuac</option>
-                    <option value="Chimalhuacán">Chimalhuacán</option>
-                    <option value="Donato Guerra">Donato Guerra</option>
-                    <option value="Ecatepec de Morelos">Ecatepec de Morelos</option>
-                    <option value="Ecatzingo">Ecatzingo</option>
-                    <option value="Huehuetoca">Huehuetoca</option>
-                    <option value="Hueypoxtla">Hueypoxtla</option>
-                    <option value="Huixquilucan">Huixquilucan</option>
-                    <option value="Isidro Fabela">Isidro Fabela</option>
-                    <option value="Ixtapaluca">Ixtapaluca</option>
-                    <option value="Ixtapan de la Sal">Ixtapan de la Sal</option>
-                    <option value="Ixtapan del Oro">Ixtapan del Oro</option>
-                    <option value="Ixtlahuaca">Ixtlahuaca</option>
-                    <option value="Xalatlaco">Xalatlaco</option>
-                    <option value="Jaltenco">Jaltenco</option>
-                    <option value="Jilotepec">Jilotepec</option>
-                    <option value="Jilotzingo">Jilotzingo</option>
-                    <option value="Jiquipilco">Jiquipilco</option>
-                    <option value="Jocotitlán">Jocotitlán</option>
-                    <option value="Joquicingo">Joquicingo</option>
-                    <option value="Juchitepec">Juchitepec</option>
-                    <option value="Lerma">Lerma</option>
-                    <option value="Malinalco">Malinalco</option>
-                    <option value="Melchor Ocampo">Melchor Ocampo</option>
-                    <option value="Metepec">Metepec</option>
-                    <option value="Mexicaltzingo">Mexicaltzingo</option>
-                    <option value="Morelos">Morelos</option>
-                    <option value="Naucalpan de Juárez">Naucalpan de Juárez</option>
-                    <option value="Nezahualcóyotl">Nezahualcóyotl</option>
-                    <option value="Nextlalpan">Nextlalpan</option>
-                    <option value="Nicolás Romero">Nicolás Romero</option>
-                    <option value="Nopaltepec">Nopaltepec</option>
-                    <option value="Ocoyoacac">Ocoyoacac</option>
-                    <option value="Ocuilan">Ocuilan</option>
-                    <option value="El Oro">El Oro</option>
-                    <option value="Otumba">Otumba</option>
-                    <option value="Otzoloapan">Otzoloapan</option>
-                    <option value="Otzolotepec">Otzolotepec</option>
-                    <option value="Ozumba">Ozumba</option>
-                    <option value="Papalotla">Papalotla</option>
-                    <option value="La Paz">La Paz</option>
-                    <option value="Polotitlán">Polotitlán</option>
-                    <option value="Rayón">Rayón</option>
-                    <option value="San Antonio la Isla">San Antonio la Isla</option>
-                    <option value="San Felipe del Progreso">San Felipe del Progreso</option>
-                    <option value="San Martín de las Pirámides">San Martín de las Pirámides</option>
-                    <option value="San Mateo Atenco">San Mateo Atenco</option>
-                    <option value="San Simón de Guerrero">San Simón de Guerrero</option>
-                    <option value="Santo Tomás">Santo Tomás</option>
-                    <option value="Soyaniquilpan de Juárez">Soyaniquilpan de Juárez</option>
-                    <option value="Sultepec">Sultepec</option>
-                    <option value="Tecámac">Tecámac</option>
-                    <option value="Tejupilco">Tejupilco</option>
-                    <option value="Temamatla">Temamatla</option>
-                    <option value="Temascalapa">Temascalapa</option>
-                    <option value="Temascalcingo">Temascalcingo</option>
-                    <option value="Temascaltepec">Temascaltepec</option>
-                    <option value="Temoaya">Temoaya</option>
-                    <option value="Tenancingo">Tenancingo</option>
-                    <option value="Tenango del Aire">Tenango del Aire</option>
-                    <option value="Tenango del Valle">Tenango del Valle</option>
-                    <option value="Teoloyucan">Teoloyucan</option>
-                    <option value="Teotihuacán">Teotihuacán</option>
-                    <option value="Tepetlaoxtoc">Tepetlaoxtoc</option>
-                    <option value="Tepetlixpa">Tepetlixpa</option>
-                    <option value="Tepotzotlán">Tepotzotlán</option>
-                    <option value="Tequixquiac">Tequixquiac</option>
-                    <option value="Texcaltitlán">Texcaltitlán</option>
-                    <option value="Texcalyacac">Texcalyacac</option>
-                    <option value="Texcoco">Texcoco</option>
-                    <option value="Tezoyuca">Tezoyuca</option>
-                    <option value="Tianguistenco">Tianguistenco</option>
-                    <option value="Timilpan">Timilpan</option>
-                    <option value="Tlalmanalco">Tlalmanalco</option>
-                    <option value="Tlalnepantla de Baz">Tlalnepantla de Baz</option>
-                    <option value="Tlatlaya">Tlatlaya</option>
-                    <option value="Toluca">Toluca</option>
-                    <option value="Tonatico">Tonatico</option>
-                    <option value="Tultepec">Tultepec</option>
-                    <option value="Tultitlán">Tultitlán</option>
-                    <option value="Valle de Bravo">Valle de Bravo</option>
-                    <option value="Villa de Allende">Villa de Allende</option>
-                    <option value="Villa del Carbón">Villa del Carbón</option>
-                    <option value="Villa Guerrero">Villa Guerrero</option>
-                    <option value="Villa Victoria">Villa Victoria</option>
-                    <option value="Xonacatlan">Xonacatlán</option>
-                    <option value="Zacazonapan">Zacazonapan</option>
-                    <option value="Zacualpan">Zacualpan</option>
-                    <option value="Zinacantepec">Zinacantepec</option>
-                    <option value="Zumpahuacán">Zumpahuacán</option>
-                    <option value="Zumpango">Zumpango</option>
-                    <option value="Cuautitlán Izcalli">Cuautitlán Izcalli</option>
-                    <option value="Valle de Chalco Solidaridad">Valle de Chalco Solidaridad</option>
-                    <option value="Luvianos">Luvianos</option>
-                    <option value="San José del Rincón">San José del Rincón</option>
-                    <option value="Tonanitla">Tonanitla</option>
+                    <option value='ALMOLOYA DEL RIO'>ALMOLOYA DEL RIO</option>
+  <option value='JOQUICINGO'>JOQUICINGO</option>
+ <option value='MALINALCO'>MALINALCO</option>
+ <option value='OCOYOACAC'>OCOYOACAC</option>
+ <option value='SULTEPEC'>SULTEPEC</option>
+ <option value='TENANGO DEL AIRE'>TENANGO DEL AIRE</option>
                 </select>
               </div>
             </div>
@@ -438,6 +190,150 @@ https://partidoverdeedomex.org/candidatas-y-candidatos
                 @foreach ($candidatos as $c)
                     @if($c->tipo == 'Municipal')
                         <div onclick="link('{{$c->slug}}')" class="col-team col-xs-6 col-md-4 cuadro2" id="{{$c->municipio}}">
+                            <div class="team-profile" style="min-height: 410px !important;">
+                                <img alt="{{ $c->nombre }}" src="{{ asset($c->foto) }}">
+                          
+                                    <div class="team-name" style="color:#cee002;">
+                                        <h6>{{ $c->nombre }}</h6>
+                                        <div class="team-spec">Municipio {{$c->municipio }}</div>
+                                      </div>
+                                      <a target="_blank" href="{{ route('Candidatos.Show', [$c->slug]) }}" class="link-arrow">Ver más... <i class="icon ion-ios-arrow-right"></i></a>
+                            </div>
+                        </div>
+                  @endif
+                @endforeach
+              </div>
+            </div>
+                 
+          </div>
+        </div>
+    </section>
+
+
+<section class="section">
+        <div class="container">
+          <!-- SINDICOS INICIO -->
+          <div class="row">
+            <div class="col-md-3">
+              <div class="section-info">
+                <div class="title-hr"></div>
+                <div class="info-title">Sindicos:</div>
+                <br>
+                <div style="font-size:75% !important" class="info-title">Municipio:</div>
+                <br>
+                <select class="selectpicker3" id="distrito3" name="distrito3">
+                    <option value="Todos">Municipio</option>
+                   
+
+ <option value='ALMOLOYA DEL RIO'>ALMOLOYA DEL RIO</option>
+  <option value='JOQUICINGO'>JOQUICINGO</option>
+ <option value='MALINALCO'>MALINALCO</option>
+ <option value='OCOYOACAC'>OCOYOACAC</option>
+ <option value='SULTEPEC'>SULTEPEC</option>
+ <option value='TENANGO DEL AIRE'>TENANGO DEL AIRE</option>
+               </select>
+              </div>
+            </div>
+            <!-- Muestra candidatos  -->
+            <div class="col-md-9">
+              <div class="row-team row">
+                @foreach ($candidatos as $c)
+                    @if($c->tipo == 'Sindico')
+                        <div onclick="link('{{$c->slug}}')" class="col-team col-xs-6 col-md-4 cuadro3" id="{{$c->municipio}}">
+                            <div class="team-profile" style="min-height: 300px !important;">
+                                <img alt="{{ $c->nombre }}" src="{{ asset($c->foto) }}">
+                              
+                                    <div class="team-name" style="color:#cee002;">
+                                        <h6>{{ $c->nombre }}</h6>
+                                        <div class="team-spec">Municipio {{$c->municipio }}</div>
+                                      </div>
+                                      <a target="_blank" href="{{ route('Candidatos.Show', [$c->slug]) }}" class="link-arrow">Ver más... <i class="icon ion-ios-arrow-right"></i></a>
+                            </div>
+                        </div>
+                  @endif
+                @endforeach
+              </div>
+            </div>
+                 
+          </div>
+        </div>
+    </section>
+
+
+    
+<section class="section">
+        <div class="container">
+          <!-- REGIDORES -->
+          <div class="row">
+            <div class="col-md-3">
+              <div class="section-info">
+                <div class="title-hr"></div>
+                <div class="info-title">Regidores:</div>
+                <br>
+                <div style="font-size:75% !important" class="info-title">Municipio:</div>
+                <br>
+                <select class="selectpicker4" id="distrito4" name="distrito4">
+                    <option value="Todos">Municipio</option>
+                     <option value='ACULCO'>ACULCO</option>
+ <option value='ALMOLOYA DE JUAREZ'>ALMOLOYA DE JUAREZ</option>
+ <option value='ALMOLOYA DEL RIO'>ALMOLOYA DEL RIO</option>
+ <option value='AMECAMECA'>AMECAMECA</option>
+ <option value='APAXCO'>APAXCO</option>
+ <option value='ATIZAPAN DE ZARAGOZA'>ATIZAPAN DE ZARAGOZA</option>
+ <option value='COACALCO'>COACALCO</option>
+ <option value='CUAUTITLAN'>CUAUTITLAN</option>
+ <option value='CUAUTITLAN IZCALLI'>CUAUTITLAN IZCALLI</option>
+ <option value='CHALCO'>CHALCO</option>
+ <option value='CHAPULTEPEC'>CHAPULTEPEC</option>
+ <option value='DONATO GUERRA'>DONATO GUERRA</option>
+ <option value='ECATZINGO'>ECATZINGO</option>
+ <option value='HUEHUETOCA'>HUEHUETOCA</option>
+ <option value='HUEYPOXTLA'>HUEYPOXTLA</option>
+ <option value='ISIDRO FABELA'>ISIDRO FABELA</option>
+ <option value='IXTAPAN DE LA SAL'>IXTAPAN DE LA SAL</option>
+ <option value='JILOTEPEC'>JILOTEPEC</option>
+ <option value='JOQUICINGO'>JOQUICINGO</option>
+ <option value='JUCHITEPEC'>JUCHITEPEC</option>
+ <option value='MALINALCO'>MALINALCO</option>
+ <option value='MELCHOR OCAMPO'>MELCHOR OCAMPO</option>
+ <option value='OCOYOACAC'>OCOYOACAC</option>
+ <option value='OCUILAN'>OCUILAN</option>
+ <option value='OTUMBA'>OTUMBA</option>
+ <option value='PAPALOTLA'>PAPALOTLA</option>
+ <option value='POLOTITLAN'>POLOTITLAN</option>
+ <option value='SOYANIQUILPAN DE JUAREZ'>SOYANIQUILPAN DE JUAREZ</option>
+ <option value='SULTEPEC'>SULTEPEC</option>
+ <option value='TECAMAC'>TECAMAC</option>
+ <option value='TEMAMATLA'>TEMAMATLA</option>
+ <option value='TEMASCALCINGO'>TEMASCALCINGO</option>
+ <option value='TEMASCALTEPEC'>TEMASCALTEPEC</option>
+ <option value='TENANCINGO'>TENANCINGO</option>
+ <option value='TENANGO DEL AIRE'>TENANGO DEL AIRE</option>
+ <option value='TENANGO DEL VALLE'>TENANGO DEL VALLE</option>
+ <option value='TEPETLIXPA'>TEPETLIXPA</option>
+ <option value='TEXCALYACAC'>TEXCALYACAC</option>
+ <option value='TEXCOCO'>TEXCOCO</option>
+ <option value='TIANGUISTENCO'>TIANGUISTENCO</option>
+ <option value='TIMILPAN'>TIMILPAN</option>
+ <option value='TULTITLAN'>TULTITLAN</option>
+ <option value='VALLE DE BRAVO'>VALLE DE BRAVO</option>
+ <option value='VILLA DEL CARBON'>VILLA DEL CARBON</option>
+ <option value='VILLA GUERRERO'>VILLA GUERRERO</option>
+ <option value='VILLA VICTORIA'>VILLA VICTORIA</option>
+ <option value='ZINACANTEPEC'>ZINACANTEPEC</option>
+ <option value='VALLE DE CHALCO SOLIDARIDAD'>VALLE DE CHALCO SOLIDARIDAD</option>
+ <option value='SAN JOSE DEL RINCON'>SAN JOSE DEL RINCON</option>
+          
+                   
+                </select>
+              </div>
+            </div>
+            <!-- Muestra candidatos  -->
+            <div class="col-md-9">
+              <div class="row-team row">
+                @foreach ($candidatos as $c)
+                    @if($c->tipo == 'Regidor')
+                        <div onclick="link('{{$c->slug}}')" class="col-team col-xs-6 col-md-4 cuadro4" id="{{$c->municipio}}">
                             <div class="team-profile" style="min-height: 410px !important;">
                                 <img alt="{{ $c->nombre }}" src="{{ asset($c->foto) }}">
                                 <!-- <div class="team-hover">
@@ -460,50 +356,10 @@ https://partidoverdeedomex.org/candidatas-y-candidatos
                 @endforeach
               </div>
             </div>
-                  <!-- MUNICIPALES FIN -->
-
+                 
           </div>
         </div>
     </section>
-
-    <!-- <section class="section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3">
-              <div class="section-info">
-                <div class="title-hr"></div>
-                <div class="info-title">Candidato al Ayuntamiento:</div>
-                <br>
-                <div style="font-size:75% !important" class="info-title">Municipio:</div>
-                <br>
-              </div>
-            </div>
-            <div class="col-md-9">
-              <div class="row-team row">
-
-                @foreach ($candidatos as $c)
-                    @if($c->tipo == 'Miembro')
-                        <div onclick="link('{{$c->slug}}')" class="col-team col-xs-6 col-md-4 cuadro3" id="{{$c->municipio}}">
-                            <div class="team-profile">
-                                <img alt="{{ $c->nombre }}" src="{{ asset($c->foto) }}">
-                                <div class="team-hover">
-                                    <div class="team-content">
-                                        <div class="team-name">
-                                        <h6>{{ $c->nombre }}</h6>
-                                        <div class="team-spec">Municipio {{$c->municipio }}</div>
-                                        </div>
-                                        <a target="_blank" href="{{ route('Candidatos.Show', [$c->slug]) }}" class="link-arrow">Ver más... <i class="icon ion-ios-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                  @endif
-                @endforeach
-              </div>
-            </div>
-          </div>
-        </div>
-    </section> -->
 
     <style>
         .team-hover:hover{
@@ -517,6 +373,46 @@ https://partidoverdeedomex.org/candidatas-y-candidatos
 @section('scripts')
 <script>
 
+$('.selectpicker3').selectpicker();
+
+$('#distrito3').change(function (e) {
+  let d = this.value;
+  
+  // $('#' + d).hide();
+
+  $(".cuadro3").each(function(){
+    if(d == "Todos"){
+      $(this).show();
+    }else{
+      if(($(this).attr('id')) == d ){
+      $(this).show();
+    }else{
+      $(this).hide();
+    }
+    }
+  });
+
+});
+$('.selectpicker4').selectpicker();
+
+$('#distrito4').change(function (e) {
+  let d = this.value;
+  
+  // $('#' + d).hide();
+
+  $(".cuadro4").each(function(){
+    if(d == "Todos"){
+      $(this).show();
+    }else{
+      if(($(this).attr('id')) == d ){
+      $(this).show();
+    }else{
+      $(this).hide();
+    }
+    }
+  });
+
+});
 $('.selectpicker').selectpicker();
 
 $('#distrito').change(function (e) {

@@ -110,6 +110,21 @@
 
 
 					<h1 class="open-anim opacity-0">{{$candidate->nombre}}</h1>
+                    <h2 class="open-anim opacity-0">
+                        @if($candidate->tipo=="Local") 
+                         Diputado(a)
+                      @elseif($candidate->tipo=="Municipal")
+                      Presidente(a) Municipal
+                      @elseif($candidate->tipo=="Sindico")
+                      Síndico(a)
+                      @elseif($candidate->tipo=="Regidor")
+                      Regidor(a)
+                      @endif
+                    
+                    </h2>
+
+
+
                     @if($candidate->tipo == "Local" || $candidate->tipo == "Federal")
                         <h3 class="open-anim opacity-0">Distrito {{$candidate->distrito}}</h3>
                     @endif
@@ -301,80 +316,26 @@
 
                 <div class="left-center-part">
 
-                    <h2 style="color: #003159">¿Cuáles son tus propuestas?</h2>
+                    <h2 style="color: #003159">Datos de Contacto</h2>
 
                     <div class="row">
 
                         <div class="col-xs-12 col-sm-12 col-lg-12">
 
                             <!-- START - Contact Form -->
-                            <form id="propuestasForm" action="{{ route('proposal.store') }}" method="POST" enctype="multipart/form-data">
-                                @csrf
+                           
                                 <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-lg-12">
+                               <h4> <i class="fa fa-map-marker" aria-hidden="true"></i> {{$candidate->address}} <br><br>
+                               <i class="fa fa-volume-control-phone" aria-hidden="true"></i> {{$candidate->phone}}   <br><br>
+                               <i class="fa fa-envelope" aria-hidden="true"></i> {{$candidate->email}}  <br><br>
 
-                                    <input type="hidden" name="correo" value="{{$candidate->email}}">
-                                    <input type="hidden" name="id" value="{{$candidate->id}}">
 
-                                    <!-- Full name -->
-                                    <div class="col-xs-12 col-sm-6 col-lg-6">
-                                        <div class="form-group">
-                                            <input type="text" id="nombre" class="form form-control" placeholder="Nombre completo*" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nombre completo*'" name="nombre" data-name="nombre" required>
-                                        </div>
-                                        @if ($errors->has('nombre'))
-                                                <span style="color: #FF0000">{{ $errors->first('nombre') }}</span>
-                                        @endif
-                                    </div>
+                               </h4>
+                        </div>
 
-                                    <!-- Municipio -->
-                                    <div class="col-xs-12 col-sm-6 col-lg-6">
-                                        <div class="form-group">
-                                            <input type="text" id="municipio" class="form form-control" placeholder="Municipio*" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Municipio*'" name="municipio" data-name="municipio" required>
-                                        </div>
-                                        @if ($errors->has('municipio'))
-                                                <span style="color: #FF0000">{{ $errors->first('municipio') }}</span>
-                                        @endif
-                                    </div>
 
-                                    <!-- E-mail -->
-                                    <div class="col-xs-12 col-sm-6 col-lg-6">
-                                        <div class="form-group">
-                                            <input type="email" id="email" class="form form-control" placeholder="Correo electrónico*" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Correo electrónico*'" name="email" data-name="email" required>
-                                        </div>
-                                        @if ($errors->has('email'))
-                                            <span style="color: #FF0000">{{ $errors->first('email') }}</span>
-                                        @endif
-                                    </div>
-
-                                    <!-- Teléfono -->
-                                    <div class="col-xs-12 col-sm-6 col-lg-6">
-                                        <div class="form-group">
-                                            <input type="tel" id="telefono" class="form form-control" placeholder="Número de teléfono*" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Número de teléfono*'" name="telefono" data-name="telefono" required>
-                                        </div>
-                                        @if ($errors->has('telefono'))
-                                            <span style="color: #FF0000">{{ $errors->first('telefono') }}</span>
-                                        @endif
-                                    </div>
-
-                                    <!-- Message -->
-                                    <div class="col-xs-12 col-sm-12 col-lg-12">
-                                        <div class="form-group">
-                                            <textarea style="resize: none;" id="propuestas" class="form textarea form-control" placeholder="Dinos tus propuestas*" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Dinos tus propuestas*'" name="propuestas" data-name="propuestas" required></textarea>
-                                        </div>
-                                        @if ($errors->has('propuestas'))
-                                            <span style="color: #FF0000">{{ $errors->first('propuestas') }}<br></span>
-                                        @endif
-                                        <span style="color: #003159" class="sub-text">* Campos requeridos</span>
-                                    </div>
-
-                                </div>
-
-                                <!-- Form submission -->
-                                <div style="text-align: center">
-                                    <button style="color: black" type="submit" class="btn btn-color btn-lg">Enviar</button>
-                                {{-- <button type="submit" id="formm" class="btn btn-color">Enviar</button> --}}
-                                </div>
-
-                            </form>
+                        </div>
                             <!-- END - Contact Form -->
 
                             <!-- START - Answer for the contact form is displayed in the next div, do not remove it. -->
@@ -405,7 +366,7 @@
 
                 <div class="left-center-part" style="text-align: center">
 
-                    <h2 style="color: #003159">Estemos en contacto</h2>
+                    <h2 style="color: #003159">Redes Sociales</h2>
                     <br>
                     <br>
                     <br>

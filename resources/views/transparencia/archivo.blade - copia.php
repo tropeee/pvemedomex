@@ -88,7 +88,7 @@
 
     <!-- Sidebar Menu-->
 
-    @include('partials.transmenu')
+    @include('partials.menu')
 
     <!-- Navbar -->
 

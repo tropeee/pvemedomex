@@ -16,7 +16,7 @@
         </ul>
       </li>
       <li>
-        <a href="{{ route('Candidatos') }}">Candidatos</a>
+        <a href="{{ route('Candidatos') }}">Gobiernos Verdes</a>
       </li>
       <li>
         <a href="{{ route('Noticias') }}">Noticias</a>

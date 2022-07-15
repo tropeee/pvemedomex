@@ -88,26 +88,13 @@
 
     <!-- Sidebar Menu-->
 
-    @include('partials.transmenu')
+    @include('partials.menu')
 
     <!-- Navbar -->
 
     @include('partials.navbar')
 
     <!-- Pageheader -->
-    <section style="padding-top: 10px;">
-        <div class="container">
-            <div class="intro">
-                <div class="row" style="text-align: justify; align-items: center; padding: 3rem;">
-                    <div class="">
-                    <!-- <h1 class="display-2 text-white"><span>Partido Verde</span> del Estado de México</h1> -->
-                    <p class="subtitle-top" style="color: black;  font-size: x-large; font-weight: 150;">En cumplimiento a lo dispuesto por los <strong>artículos 41</strong> de la <strong>Constitución Política de los Estados Unidos Mexicanos; 210, 251</strong> de la <strong>Ley General de Instituciones y Procedimientos Electorales; 12</strong> de la <strong>Constitución Política del Estado Libre y Soberano de México; y 263</strong> del Código Electoral del Estado de México, con la finalidad de generar condiciones para que la ciudadanía reflexione el sentido de su voto en libertad, se hace de su conocimiento que <strong>durante el periodo comprendido del 03 de junio hasta la conclusión de la jornada electoral, se suspenderá la difusión en medios sociales de todo tipo de propaganda electoral.</strong></p>
-                    <!-- <div class="hr-bottom"></div> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     {{-- <section style="padding-top:0 !important" class="section">
         <div >

@@ -12,7 +12,7 @@
     <!-- keywords -->
     <meta name="keywords" content="Creative Startup, modern, clean, bootstrap responsive, html5, css3, portfolio, blog, studio, templates, multipurpose, one page, corporate, start-up, studio, branding, designer, freelancer, carousel, parallax, photography, studio, masonry, grid, faq">
     <!-- Page Title -->
-    <title>Unidad de Transparencia PVEM</title>
+    <title>Acceso a la Información Pública PVEM</title>
     <!-- Favicon -->
     <link href="{{asset ('images\Logo-32x32.png')}}" rel="icon">
     <!-- Bundle -->
@@ -97,35 +97,15 @@
                     <div class="col-8 col-lg-9 simple-navbar">
                         <nav class="navbar navbar-expand-lg">
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav ml-auto">
+                              <ul class="navbar-nav ml-auto">
                                     <li class="nav-item active"><a class="nav-link scroll" href="{{route ('Inicio')}}">INICIO</a></li>
-                                     <li class="nav-item active"><a class="nav-link scroll" href="{{ route('Interes-Publico') }}">INTERÉS PÚBLICO</a></li>
-                                    <li class="nav-item dropdown"><a class="nav-link scroll dropdown-toggle" data-toggle="dropdown" href="#">NOSOTROS<b class="caret"></b></a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item"><a class="nav-item" href="{{route('Estructura')}}">ESTRUCTURA</a></li>
-                                        <li class="nav-item"><a class="nav-item" href="{{route('Historia')}}">HISTORIA</a></li>
-                                    </ul>
-                                </li>
-                                    <li class="nav-item"><a class="nav-link scroll" href="{{route ('Candidatos')}}">CANDIDATOS</a></li>
-                                    <li class="nav-item"><a class="nav-link scroll" href="{{route ('Noticias')}}">NOTICIAS</a></li>
-                                    <li class="nav-item dropdown"><a class="nav-link scroll dropdown-toggle" data-toggle="dropdown" href="{{route ('Transparencia')}}">TRANSPARENCIA<b class="caret"></b></a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item" style="font-size: smaller;"><a class="nav-item" href="{{route('Transparencia')}}">PORTAL DE TRANSPARENCIA</a></li>
-                                        <li class="nav-item" style="font-size: smaller;"><a class="nav-item" href="{{route('Unidad-Transparencia')}}">UNIDAD DE TRANSPARENCIA</a></li>
-                                        <li class="nav-item" style="font-size: smaller;"><a class="nav-item" href="{{route('Proteccion-Datos')}}">PROTECCIÓN DE DATOS PERSONALES</a></li>
-                                        <li class="nav-item" style="font-size: smaller;"><a class="nav-item" href="{{route('Archivo')}}">GESTIÓN DOCUMENTAL (ARCHIVO)</a></li>
-                                    </ul>
-                                </li>
-                                    <li class="nav-item dropdown"><a class="nav-link scroll dropdown-toggle" data-toggle="dropdown" href="{{route ('Ecologista')}}">PUBLICACIONES</a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item"><a class="nav-item" href="{{route('Ecologista')}}">EL ECOLOGISTA</a></li>
-                                        <li class="nav-item"><a class="nav-item" href="{{route('Convocatorias')}}">CONVOCATORIAS</a></li>
-                                        <li class="nav-item"><a class="nav-item" href="{{route('Guias')}}">GUÍAS</a></li>
-                                        <li class="nav-item"><a class="nav-item" href="{{route('Comunicados')}}">COMUNICADOS</a></li>
-                                    </ul>
-                                </li>
-                                    <li class="nav-item"><a class="nav-link scroll" href="{{route ('Atencion')}}">ATENCIÓN</a></li>
-                                </ul>
+                                      <li class="nav-item active"><a class="nav-link scroll" href="{{ route('Interes-Publico') }}">INTERÉS PÚBLICO</a></li>
+                                    <li class="nav-item active"><a class="nav-link scroll" href="{{route('Transparencia') }}">TRANSPARENCIA</a></li>
+                                    <li class="nav-item active"><a class="nav-link scroll" href="{{ route('Proteccion-Datos') }}">PROTECCIÓN DE DATOS PERSONALES</a></li>
+                                      <li class="nav-item active"><a class="nav-link scroll" href="{{ route('Archivo') }}">GESTIÓN DOCUMENTAL (ARCHIVO)</a></li>
+                                     
+                                      <li class="nav-item"><a class="nav-link scroll" href="">PROACTIVIDAD</a></li> 
+
                             </div>
                         </nav>
                         <ul class="top-social-links fixed-nav-links">
