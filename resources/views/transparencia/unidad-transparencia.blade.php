@@ -104,7 +104,7 @@
                                     <li class="nav-item active"><a class="nav-link scroll" href="{{ route('Proteccion-Datos') }}">PROTECCIÓN DE DATOS PERSONALES</a></li>
                                       <li class="nav-item active"><a class="nav-link scroll" href="{{ route('Archivo') }}">GESTIÓN DOCUMENTAL (ARCHIVO)</a></li>
                                      
-                                      <li class="nav-item"><a class="nav-link scroll" href="">PROACTIVIDAD</a></li> 
+                                      <li class="nav-item"><a class="nav-link scroll" href="{{ route('Proactividad') }}">PROACTIVIDAD</a></li> 
                                       <li class="nav-item active"><a class="nav-link scroll" href="{{ route('Interes-Publico') }}">INTERÉS PÚBLICO</a></li>
 
                             </div>

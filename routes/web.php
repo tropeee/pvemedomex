@@ -121,6 +121,11 @@ Route::get('/formatos', function () {
 Route::get('/propuestas', function () {
     return view('propuestas');
 })->name('Propuestas');
+
+Route::get('/proactividad', function () {
+    return view('transparencia.proactividad');
+})->name('Proactividad');
+
 // Transparencia -----------------------------------------------------------------------------|
 
 
