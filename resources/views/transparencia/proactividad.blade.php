@@ -510,24 +510,7 @@ input[type=radio]:checked~label.star svg path {
                             </a>
                         </div>
 
-
-                         <div class="cbp-item web logo" style="max-width: 200px;">
-                            <a target="blank" href="{{ asset('pdf\proactividad\13.TransparenciaProactiva GD.docx')}}" class="cbp-caption" data-title="">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="images\13.TransparenciaProactiva GD-thumb.jpg"  alt="img">
-                                </div>
-                                <div class="cbp-caption-activeWrap portfolio-hover-effect d-flex align-items-end">
-                                    <!-- <div class="portfolio-inner-content">
-                                        <span></span>
-                                        <span></span>
-                                    </div> -->
-                                    <div class="hover-text">
-                                      <!--  <h4 class="p-hover-title">GUÍA ORIENTADORA</h4> -->
-                                        <p class="p-hover-des"> Transparencia proactiva.</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
+                    
 
 
 
