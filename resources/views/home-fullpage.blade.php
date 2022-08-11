@@ -54,6 +54,8 @@
             <a  href="{{ route('Inicio') }}">Inicio</a>
           </li>
           <li><a href="{{ route('Interes-Publico') }}">Información de Interés Público</a></li>
+          <li><a href="{{ route('Transparencia') }}">Transparencia</a></li>
+          <li><a href="{{ route('Covid19') }}">Covid-19 </a></li>
           <li>
             <a href="#">Nosotros</a>
             <ul>
@@ -132,7 +134,7 @@
         <a class="brand" target="_blank" href="https://www.sarcoem.org.mx/"><img class="brand-img-white" src="images\logos verde 15 de septiembre\logoSarcomex.png"  width="70" height="40"><img class="brand-img" src="images\logos verde 15 de septiembre\logoSarcomex negro.png"  width="70" height="40"></a>
         <a class="brand" target="_blank" href="http://www.ipomex.org.mx/"><img class="brand-img-white" src="images\logos verde 15 de septiembre\ipom.png"  width="65" height="25"><img class="brand-img" src="images\logos verde 15 de septiembre\logoIpomex negro.png"  width="65" height="25"></a>  &nbsp;    
          <a  target="_blank" href="{{route('Transparencia')}}" ><FONT SIZE=4><font face="Calibri"><b>TRANSPARENCIA </b>  &nbsp;</a> 
-        <a  target="_blank" href="{{route('Transparencia')}}" ><FONT SIZE=4><font face="Calibri"><b> COVID-19</b></a>
+        <a  target="_blank" href="{{route('Covid19')}}" ><FONT SIZE=4><font face="Calibri"><b> COVID-19</b></a>
           
         
     </header>

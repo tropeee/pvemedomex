@@ -276,7 +276,7 @@ input[type=radio]:checked~label.star svg path {
         <div class="section-heading">
             <div class="row">
                 <div class="col-lg-6 wow fadeInUp text-center text-lg-left" data-wow-delay="300ms">
-                   <h4 class="heading" style="    margin-bottom: -42px;font-size: 13px;">Descargas </h4>
+                   <h4 class="heading" style="    margin-bottom: -42px;font-size: 13px;">Infografías </h4>
                   
                 </div>
                 

@@ -80,6 +80,9 @@ Route::get('/interes-publico', function () {
     return view('transparencia.interes-publico');
 })->name('Interes-Publico');
 
+Route::get('/covid19', function () {
+    return view('covid-19.covid');
+})->name('Covid19');
 
 // Transparencia -----------------------------------------------------------------------------|
 Route::get('/gestion-documental', function () {
