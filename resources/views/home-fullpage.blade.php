@@ -54,7 +54,6 @@
             <a  href="{{ route('Inicio') }}">Inicio</a>
           </li>
           <li><a href="{{ route('Interes-Publico') }}">Información de Interés Público</a></li>
-          <li><a href="{{ route('Transparencia') }}">Transparencia</a></li>
           <li><a href="{{ route('Covid19') }}">Covid-19 </a></li>
           <li>
             <a href="#">Nosotros</a>
@@ -70,15 +69,16 @@
           <li>
             <a href="{{ route('Noticias') }}">Noticias</a>
           </li>
-         <!-- <li>
+          <li>
             <a href="#">Transparencia</a>
             <ul>
               <li><a href="{{ route('Transparencia') }}">Portal de Transparencia</a></li>
               <li><a href="{{ route('Unidad-Transparencia') }}">Unidad de Transparencia</a></li>
               <li><a href="{{route ('Proteccion-Datos')}}">Protección de Datos Personales</a></li>
               <li><a href="{{route ('Archivo')}}">Gestión Documental (Archivo)</a></li>
+              <li><a href="{{route ('Proactividad')}}">Proactividad</a></li>
             </ul>
-          </li>-->
+          </li>
           <li> 
             <a href="#">Publicaciones</a>
             <ul>
