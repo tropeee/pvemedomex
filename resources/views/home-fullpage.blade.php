@@ -335,8 +335,8 @@
                         </div>
                         <center> <h2> <b> VISITANTES:</b>  <br>
     <!-- Start of CuterCounter Code --> 
-<a href="https://www.webfreecounter.com/" target="_blank"><img src="https://www.cutercounter.com/hits.php?id=hmvxaoxdf&nd=5&style=115" border="0" alt="best free website hit counter"></a>
-<!-- End of CuterCounter Code --> </h2></center>
+<a href="https://websmultimedia.com/contador-de-visitas-gratis" title="Contador De Visitas Gratis">
+<img style="border: 0px solid; display: inline;" alt="contador de visitas" src="https://websmultimedia.com/contador-de-visitas.php?id=4691"></a><br><!-- End of CuterCounter Code --> </h2></center>
 
                       </div>
                     </div>

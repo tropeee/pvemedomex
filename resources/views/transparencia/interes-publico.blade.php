@@ -156,12 +156,12 @@ input[type=radio]:checked~label.star svg path {
             </div>
         </div>
         <!--toggle btn-->
-        <!--
+        
         <a href="javascript:void(0)" class="sidemenu_btn" id="sidemenu_toggle">
             <span></span>
             <span></span>
             <span></span>
-        </a> -->
+        </a> 
     </div>
     <!--Side Nav-->
     <div class="side-menu hidden side-menu-opacity">
@@ -176,31 +176,29 @@ input[type=radio]:checked~label.star svg path {
                 <div class="col-12 col-lg-8">
                     <nav class="side-nav w-100">
                         <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link scroll" href="{{route ('Inicio')}}">INICIO</a>
+                             <li class="nav-item">
+                                <a class="nav-link scroll" href="{{route ('Inicio')}}">PVEM (INICIO)</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link scroll" href="{{route ('Estructura')}}">NOSOTROS</a>
+                                <a class="nav-link scroll" href="{{route('Transparencia')}}">TRANSPARENCIA</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link scroll" href="{{route ('Candidatos')}}">CANDIDATOS</a>
+                                <a class="nav-link scroll" href="{{route('Unidad-Transparencia')}}">ACCESO A LA INFORMACIÓN PÚBLICA</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link scroll" href="{{route ('Noticias')}}">NOTICIAS</a>
-                            </li>
-                                  
-                                    <li class="nav-item" style="font-size: smaller;"><a class="nav-link scroll" href="{{route('Transparencia')}}">PORTAL DE TRANSPARENCIA</a></li>
-                                        <li class="nav-item" style="font-size: smaller;"><a class="nav-link scroll" href="{{route('Unidad-Transparencia')}}">UNIDAD DE TRANSPARENCIA</a></li>
-                                        <li class="nav-item" style="font-size: smaller;"><a class="nav-link scroll" href="{{route('Proteccion-Datos')}}">PROTECCIÓN DE DATOS PERSONALES</a></li>
-                                        <li class="nav-item" style="font-size: smaller;"><a class="nav-link scroll" href="{{route('Archivo')}}">GESTIÓN DOCUMENTAL (ARCHIVO)</a></li>
-                            
-
-                            <li class="nav-item">
-                                <a class="nav-link scroll" href="{{route ('Ecologista')}}">PUBLICACIONES</a>
+                                <a class="nav-link scroll" href="{{route('Proteccion-Datos')}}">PROTECCIÓN DE DATOS PERSONALES</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link scroll" href="{{route ('Atencion')}}">ATENCIÓN</a>
+                                <a class="nav-link scroll" href="{{route('Archivo')}}">GESTIÓN DOCUMENTAL (ARCHIVO)</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link scroll" href="{{route('Interes-Publico')}}">INTERES PÚBLICO</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link scroll" href="{{route('Proactividad')}}">PROACTIVIDAD</a>
                             </li>
                         </ul>
                     </nav>
@@ -217,7 +215,7 @@ input[type=radio]:checked~label.star svg path {
                             <li><a href="https://youtube.com/c/PartidoVerdeEstadodeM%C3%A9xico" class="link-holder youtube" style="max-width:28px; max-height:28px"><i class="lab la-youtube"></i></a></li>
                             <li><a href="https://instagram.com/partidoverdeedomex?igshid=g0xgfergf9qm" class="link-holder insta" style="max-width:28px; max-height:28px"><i class="lab la-instagram"></i></a></li>
                         </ul>
-                        <!-- <p class="text-white">&copy; 2021 Partido Verde del Estado de México</p> -->
+                         <p class="text-white">&copy; {{ date('Y') }} Partido Verde del Estado de México</p> 
                     </div>
                 </div>
             </div>

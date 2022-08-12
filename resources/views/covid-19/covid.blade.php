@@ -291,10 +291,16 @@ Y PROVEEDORES.</div>
           <img src="{{ asset('images/covid/campaña.png')}}" width="300" height="300" >
            <img src="{{ asset('images/covid/medidas.png')}}" width="300" height="300" >
             <img src="{{ asset('images/covid/protocolo.png')}}" width="300" height="300" >-->
+
+
              </center>
             
         </div>
-
+<!-- Contador de visitas -->
+<br>
+<center><a href="https://websmultimedia.com/contador-de-visitas-gratis" title="Contador De Visitas Gratis">
+<img style="border: 0px solid; display: inline;" alt="contador de visitas" src="https://websmultimedia.com/contador-de-visitas.php?id=4690"></a><br>
+<!-- Fin Contador de visitas --> </center>
 
     </section> 
 
