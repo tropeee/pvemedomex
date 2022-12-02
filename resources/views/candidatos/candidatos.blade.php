@@ -371,6 +371,8 @@ https://partidoverdeedomex.org/candidatas-y-candidatos
 @endsection
 
 @section('scripts')
+
+<!-- JavaScript -->
 <script>
 
 $('.selectpicker3').selectpicker();

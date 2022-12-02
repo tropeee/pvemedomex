@@ -52,6 +52,13 @@
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <link href="{{ asset('css/toastr.css') }}" rel="stylesheet">
         <script src="{{ asset('js/app.js') }}"></script>
+         <!-- Integra2 -->
+ <script src='https://code.jquery.com/jquery-3.4.1.min.js' type='text/javascript'></script>
+<script src="https://www.infomexsinaloa.org/accesibilidadweb/js_api.aspx?api_key=AA171319-AD74-41DF-A441-04AD3EB57837&tipo=header&aut=partidoverdeedomex.org" type="text/javascript"></script>
+ <script src="https://www.infomexsinaloa.org/accesibilidadweb/js_api.aspx?api_key=AA171319-AD74-41DF-A441-04AD3EB57837&tipo=body&aut=partidoverdeedomex.org" type="text/javascript"></script>
+
+<script src="https://www.infomexsinaloa.org/accesibilidadweb/js_api.aspx?api_key=AA171319-AD74-41DF-A441-04AD3EB57837&tipo=footer&aut=partidoverdeedomex.org" type="text/javascript"></script>
+<!-- JavaScript -->
 	</head>
 
     <style>
