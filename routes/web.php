@@ -145,3 +145,7 @@ Route::get('/secretarias-y-secretarios/{slug}', [CandidateController::class, 'sh
 Route::resource('propuestas', 'App\Http\Controllers\ProposalController')->only(['store']);
 Route::post('contacto-candidato',[ProposalController::class, 'store'])->name('proposal.store');
 // Candidatos --------------------------------------------------------------------------------|
+
+ Route::post('/integra2-positive', 'App\Http\Controllers\StatsController@integrapositive');
+ Route::post('/integra2-negative', 'App\Http\Controllers\StatsController@integranegative');
+

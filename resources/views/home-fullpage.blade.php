@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Partido Verde Estado de México">
 <meta name="author" content="Partido Verde Estado de México">
+<meta  name ="csrf-token" content="{{csrf_token()}}" >
+
 
 <!-- Favicons -->
 <link rel="shortcut icon" href="{{ asset('images/favicon.png')}}">
@@ -31,10 +33,82 @@
 <!-- End Google Tag Manager -->
  <script src='https://code.jquery.com/jquery-3.4.1.min.js' type='text/javascript'></script>
 <script src="https://www.infomexsinaloa.org/accesibilidadweb/js_api.aspx?api_key=AA171319-AD74-41DF-A441-04AD3EB57837&tipo=header&aut=partidoverdeedomex.org" type="text/javascript"></script>
-
  <script src="https://www.infomexsinaloa.org/accesibilidadweb/js_api.aspx?api_key=AA171319-AD74-41DF-A441-04AD3EB57837&tipo=body&aut=partidoverdeedomex.org" type="text/javascript"></script>
+ <script src="https://www.infomexsinaloa.org/accesibilidadweb/js_api.aspx?api_key=AA171319-AD74-41DF-A441-04AD3EB57837&tipo=footer&aut=partidoverdeedomex.org" type="text/javascript"></script>
+<script type = "text/javascript">
+$(document).ready(function(){
+   $("#uploadModal").modal("show");  
+   $(".modal").on("shown.bs.modal", function (e) {
+   $(this).insertAfter($(".modal-backdrop"));
 
-3. <script src="https://www.infomexsinaloa.org/accesibilidadweb/js_api.aspx?api_key=AA171319-AD74-41DF-A441-04AD3EB57837&tipo=footer&aut=partidoverdeedomex.org" type="text/javascript"></script>
+   if (!readCookie('hasLaunch')) {
+        //launch it
+        launchWindow('#dialog1');               
+        //then set the cookie, so next time the modal won't be displaying again.
+        createCookie('hasLaunch', 1, 365);
+}
+
+});
+$.ajaxSetup({
+     headers: {
+         'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')  
+
+     }
+ }); 
+
+
+  //
+ $('#integra2positive').on('click',function(){
+    
+       event.preventDefault();
+          var integra2_positive=1;
+          var integra2_negative=0;
+
+
+       $.ajax({
+        
+                   method: 'POST',
+                   url: "/integra2-positive",
+                   data: {integra2_positive:1, integra2_negative:0},
+                   success: function(){
+                        alert('Gracias por tu respuesta');
+                   },
+                   error: function(){
+                       alert('Tu respuesta no fue recibida');
+                   },
+               })
+           
+      });
+
+  //
+
+   //
+ $('#integra2negative').on('click',function(){
+       event.preventDefault();
+     var integra2_positive=0;
+     var integra2_negative=1;
+       $.ajax({
+                   type:"ajax",
+                   url: "/integra2-negative",
+                   type: 'POST',
+                   data: {integra2_positive:0, integra2_negative:1},
+                   success: function(){
+                        alert('Gracias por tu respuesta');
+                   },
+                   error: function(){
+                       alert('Tu respuesta no fue recibida');
+                   },
+               })
+           
+      });
+
+  //
+
+
+}); 
+</script>  
+
+
 </head>
 <body>
 
@@ -143,19 +217,52 @@
           
         
     </header>
+  <!-- modal finish -->
+    <div id="uploadModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+   
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times; cerrar</button>
+        <h4 class="modal-title">INTEGRA2</h4>
+        <small class="text-success">        
+        Comprometidos con la inclusión y a fin de garantizar el derecho de acceso a la información pública de la ciudadanía; a partir del 02 de diciembre de 2022 esta página web oficial del Comité Ejecutivo Estatal del Partido Verde Ecologista de México en el Estado de México cuenta con la herramienta  <b>INTEGRA2 desarrollado por la Comisión Estatal para el Acceso a la Información Pública de Sinaloa </b> para ponerla a disposición -en específico- de los grupos vulnerables que requiera este apoyo.  <br>
+      </div>
+      <div class="modal-body">
+        
+         <b> ¿Qué es? </b>
+          <br>
+Herramienta web de accesibilidad para personas con discapacidad auditiva, manual, dislexia, presbicia, deuteranopia, ritanopia, otras formas de daltonismo, problemas o discapacidades visuales y cognitivas. </small>
+             
+                       <div class="text-center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QD7ClqKzcNs" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>
+¿Haz utilizado esta herramienta? 
 
+<form id="form1" name="form1">
+  @csrf
+ <button data-dismiss="modal" id ="integra2positive"name="integra2positive"><center><b>Si</b>&nbsp; </center> </button> &nbsp;<button  data-dismiss="modal" id="integra2negative" name="integra2negative"><b>No</b></button>
+</form>
+
+
+
+                       </div>
+                       </div>                  
+                       </div>
+                       </div>
+                       </div>
+
+<!-- modal finish-->
   <div class="copy-bottom white boxed">© Partido Verde Estado de México</div>
   <div class="pagepiling">
-
-    <!-- APARTADO CARRUSEL 1 -->
-
-    <div class="pp-scrollable text-white section section-1">
+    <div class="pp-scrollable text-white section section-1">      
          <div class="scroll-wrap">
           <div class="section-bg" style="background-image:url(images/bg/Fondo-web.webp);"></div>
             <div class="scrollable-content">
               <div class="vertical-centred">
                 <div class="boxed boxed-inner">
-                  <div class="vertical-title hidden-xs hidden-sm"><span>Propuestas</span></div>
+                  <div class="vertical-title hidden-xs hidden-sm">
+                    <span>Propuestas</span></div>
                   <div class="boxed">
                     <div class="container">
                       <div class="intro">
@@ -533,10 +640,8 @@
     </div>
   </div>
 
-  
 
 <!-- jQuery -->
-
   <script src="{{ asset('js/jquery.min.js')}}"></script>
   <script src="{{ asset('js/animsition.min.js')}}"></script>
   <script src="{{ asset('js/bootstrap.min.js')}}"></script>
