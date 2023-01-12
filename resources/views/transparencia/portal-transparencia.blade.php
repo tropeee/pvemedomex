@@ -503,7 +503,7 @@
                         <div class="item text-center">
                             <div class="team-box">
                             <div class="img-holder position-relative">
-                                    <img src="{{ asset('images/comite-transparencia/jorge-gomez.webp') }}">
+                                    <img src="{{ asset('images/comite-transparencia/profile.png') }}">
                                     <div class="overlay d-flex justify-content-center align-items-center">
                                         <!-- Team Social -->
                                         <div class="team-spec" style="color: white;">
@@ -512,30 +512,12 @@
                                     </div> 
                                 </div>
                                 <div class="team-info">
-                                    <h4 class="team-name">Jorge Gómez Bravo</h4>
+                                    <h4 class="team-name">Mario Elias López Sánchez</h4>
                                     <!-- <p class="team-designation">Creative Head</p> -->
                                 </div>
                             </div>
                         </div>
-
-                        <div class="item text-center">
-                            <div class="team-box">
-                            <div class="img-holder position-relative">
-                                    <img src="{{ asset('images/consejeros/romina.jpg') }}">
-                                    <div class="overlay d-flex justify-content-center align-items-center">
-                                        <!-- Team Social -->
-                                        <div class="team-spec" style="color: white;">
-                                        <h4>Secretaría Técnica</h4> 
-                                        </div>
-                                    </div> 
-                                </div>
-                                <div class="team-info">
-                                    <h4 class="team-name">Romina Poumian González</h4>
-                                    <!-- <p class="team-designation">Creative Head</p> -->
-                                </div>
-                            </div>
-                        </div>
-                        
+    
                         <div class="item text-center">
                             <div class="team-box">
                             <div class="img-holder position-relative">
