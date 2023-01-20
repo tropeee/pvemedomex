@@ -262,14 +262,14 @@ Herramienta web de accesibilidad para personas con discapacidad auditiva, manual
               <div class="vertical-centred">
                 <div class="boxed boxed-inner">
                   <div class="vertical-title hidden-xs hidden-sm">
-                    <span>Propuestas</span></div>
+                    <span>Fuerza Verde 2023</span></div>
                   <div class="boxed">
                     <div class="container">
                       <div class="intro">
                         <div class="row ">
                           <div class="col-md-8 col-lg-6" style="background: rgba(80,185,72,0.8); padding: 2rem;">
-                            <h1 class="display-2 text-white"><span>¡Conoce</span> nuestras Propuestas!</h1>
-                            <p class="subtitle-top" >Da click <a href="{{route ('Propuestas')}}">aquí</a></p>
+                            <h1 class="display-2 text-white"><span>¡FUERZA <br> </span> VERDE 2023!</h1>
+                           <!-- <p class="subtitle-top" >Da click <a href="{{route ('Propuestas')}}">aquí</a></p>-->
                             <div class="hr-bottom"></div>
                           </div>
                         </div>
