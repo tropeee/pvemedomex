@@ -301,8 +301,8 @@ input[type=radio]:checked~label.star svg path {
                                 </div>
                             </a>
                         </div>
-                        <div class="cbp-item web logo" style="max-width: 350px;">
-                            <a target="blank" href="{{ asset('pdf/interes publico/calendario-2022.pdf') }}" class="cbp-caption" data-title="">
+                        <div class="cbp-item web logo" style="max-width: 300px;">
+                            <a target="blank" href="{{ asset('pdf/interes publico/calendario-2023.pdf') }}" class="cbp-caption" data-title="">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="images\calendario-thumb.jpg" alt="img">
                                 </div>
