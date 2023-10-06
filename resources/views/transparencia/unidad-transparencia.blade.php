@@ -204,25 +204,25 @@
             <div class="col-12 col-lg-8">
                 <div class="team-area wow fadeInRight">
                     <div class="row no-gutters team-carousel owl-carousel owl-theme">
-                        <div class="item text-center">
+                        <!--<div class="item text-center">
                             <div class="team-box">
                                 <div class="img-holder position-relative">
-                                    <img src="{{ asset('images/estructura/Mayra.webp')}}">
+                                    <img src="{{ asset('images/estructura/')}}">
                                     <div class="overlay d-flex justify-content-center align-items-center">
-                                        <!-- Team Social -->
+                                       
                                         <div class="team-spec" style="color: white;">
                                         <h4>Titular de la Unidad de Transparencia</h4> 
                                         <br>Suplente: Susana Pichardo Pereyra</div>
                                     </div> 
                                 </div>
                                 <div class="team-info">
-                                    <h4 class="team-name">Mayra Erendira Gómez Bravo</h4>
-                                    <!-- <p class="team-designation">Creative Head</p> -->
+                                    <h4 class="team-name">titular de transparencia</h4>
+                                   
                                 </div>
                                 
                             </div>
                         </div>
-
+                        -->
                         <div class="item text-center">
                             <div class="team-box">
                             <div class="img-holder position-relative">
@@ -313,23 +313,23 @@
                             </div>
                         </div>
                         
-                        <div class="item text-center">
+                        <!--<div class="item text-center">
                             <div class="team-box">
                             <div class="img-holder position-relative">
-                                    <img src="{{ asset('images/estructura/alhely-rubio.webp') }}">
+                                    <img src="{{ asset('images/estructura/') }}">
                                     <div class="overlay d-flex justify-content-center align-items-center">
-                                        <!-- Team Social -->
+                                       
                                         <div class="team-spec" style="color: white;">
                                         <h4>FPH Área Jurídica</h4>
                                         </div>
                                     </div> 
                                 </div>
                                 <div class="team-info">
-                                    <h4 class="team-name">Alhely Rubio Arronis</h4>
-                                    <!-- <p class="team-designation">Creative Head</p> -->
+                                    <h4 class="team-name">area juridica</h4>
+                                  
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                         
                         <div class="item text-center">
                             <div class="team-box">

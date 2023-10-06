@@ -375,12 +375,12 @@ Herramienta web de accesibilidad para personas con discapacidad auditiva, manual
           <div class="bg-changer">
               {{-- falta foto de pepe --}}
             <div class="section-bg" style="background-image:url(images/secretarios/landing/pepe.webp);"></div>
-            <div class="section-bg" style="background-image:url(images/secretarios/landing/hector.webp);"></div>
+           <!-- <div class="section-bg" style="background-image:url(images/secretarios/landing/hector.webp);"></div> -->
             <div class="section-bg" style="background-image:url(images/secretarios/landing/fabian.webp);"></div>
-            <div class="section-bg" style="background-image:url(images/secretarios/landing/brigida.webp);"></div>
-            <div class="section-bg" style="background-image:url(images/secretarios/landing/diego.webp);"></div>
-            <div class="section-bg" style="background-image:url(images/secretarios/landing/mayra.webp);"></div>
-            <div class="section-bg" style="background-image:url(images/secretarios/landing/jorge.webp);"></div>
+            <!--<div class="section-bg" style="background-image:url(images/secretarios/landing/brigida.webp);"></div> -->
+            <!-- <div class="section-bg" style="background-image:url(images/secretarios/landing/diego.webp);"></div> -->
+            <!-- <div class="section-bg" style="background-image:url(images/secretarios/landing/mayra.webp);"></div> -->
+            <!-- <div class="section-bg" style="background-image:url(images/secretarios/landing/jorge.webp);"></div> -->
           </div>
           <div class="scrollable-content">
             <div class="vertical-centred">
@@ -476,6 +476,29 @@ Herramienta web de accesibilidad para personas con discapacidad auditiva, manual
                         </div>
                         <div class="col-md-5 col-lg-5  col-md-offset-1 col-lg-offset-2 ">
                           <div class="review-carousel owl-carousel">
+                           
+                             <div class="review-carousel-item">
+                                <a target="blank" href="https://issuu.com/elecologista/docs/el_ecologista_21"><img style="width: 55% !important" src="images/ecologista/por21.jpg"></a>
+                                Vol. 21
+                            </div>
+
+
+                           <div class="review-carousel-item">
+                                <a target="blank" href="https://issuu.com/elecologista/docs/el_ecologista_20"><img style="width: 55% !important" src="images/ecologista/por20.jpg"></a>
+                                Vol. 20
+                            </div>
+
+
+                           <div class="review-carousel-item">
+                                <a target="blank" href="https://issuu.com/elecologista/docs/ecologista_19_05"><img style="width: 55% !important" src="images/ecologista/por19.jpg"></a>
+                                Vol. 19
+                            </div>
+
+                           <div class="review-carousel-item">
+                                <a target="blank" href="https://issuu.com/elecologista/docs/el_ecologista_18"><img style="width: 55% !important" src="images/ecologista/por18.jpg"></a>
+                                Vol. 18
+                            </div>
+
                             <div class="review-carousel-item">
                                 <a target="blank" href="https://issuu.com/elecologista/docs/el_ecologista_17"><img style="width: 55% !important" src="images/ecologista/VOLUMEN17.jpg"></a>
                                 Vol. 17

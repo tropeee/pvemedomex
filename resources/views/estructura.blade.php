@@ -330,24 +330,7 @@ https://partidoverdeedomex.org/estructura
                       </div>
                     </div>
                   </div>
-                  <div class="col-team col-xs-6 col-md-4">
-                    <div class="team-profile">
-                      <img alt="" src="{{ asset('images/estructura/Mayra.webp')}}">
-                      <div class="team-hover">
-                        <div class="team-content">
-                          <div class="team-name">
-                            <h6>Mayra Eréndira Gómez Bravo</h6>
-                            <div class="team-spec">Consejera</div>
-                          </div>
-                          <div class="team-social">
-                            <a href="" class="icon ion-social-twitter"></a>
-                            <a href="" class="icon ion-social-facebook"></a>
-                            <a href="" class="icon ion-social-instagram"></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  
                   <div class="col-team col-xs-6 col-md-4">
                     <div class="team-profile">
                       <img alt="" src="{{ asset('images/estructura/Pepe.png')}}">
@@ -565,24 +548,7 @@ https://partidoverdeedomex.org/estructura
                     </div>
                   </div>
                 </div>
-                <div class="col-team col-xs-6 col-md-4">
-                  <div class="team-profile">
-                    <img alt="" src="{{ asset('images/estructura/alhely-rubio.webp')}}">
-                    <div class="team-hover">
-                      <div class="team-content">
-                        <div class="team-name">
-                          <h6>Alhely Rubio Arronis</h6>
-                          <div class="team-spec">Comisionado</div>
-                        </div>
-                        <div class="team-social">
-                          <a href="" class="icon ion-social-twitter"></a>
-                          <a href="" class="icon ion-social-facebook"></a>
-                          <a href="" class="icon ion-social-instagram"></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+             
               </div>
             </div>
           </div>
@@ -604,11 +570,11 @@ https://partidoverdeedomex.org/estructura
               <div class="row-team row">
                 <div class="col-team col-xs-6 col-md-4">
                   <div class="team-profile">
-                    <img alt="" src="{{ asset('images/estructura/alhely-rubio.webp')}}">
+                    <img alt="" src="{{ asset('images/comite-transparencia/profile.png')}}">
                     <div class="team-hover">
                       <div class="team-content">
                         <div class="team-name">
-                          <h6>Alhely Rubio Arronis</h6>
+                          <h6>Titular del Area</h6>
                           <div class="team-spec">Titular</div>
                         </div>
                         <div class="team-social">

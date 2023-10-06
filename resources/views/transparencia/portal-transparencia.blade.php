@@ -232,7 +232,7 @@
             </div>
             <div class="slider-img col-12 col-lg-6 wow fadeInRight" data-wow-delay=".8s" data-depth="0.1">
                 <div class="img-slide">
-                    <img src="{{asset ('transparencia/img/portal-transparencia/mayra.webp')}}">
+                    <img src="{{asset ('transparencia/img/portal-transparencia/avatar-mujer.png')}}"> 
                 </div>
                 <div class="img-slide">
                     <img src="{{asset ('transparencia/img/portal-transparencia/Fabian.webp')}}">
@@ -466,7 +466,7 @@
                         <div class="item text-center">
                             <div class="team-box">
                                 <div class="img-holder position-relative">
-                                    <img src="{{ asset('images/estructura/Mayra.webp') }}">
+                                    <img src="{{ asset('images/comite-transparencia/profile.png') }}">
                                     <div class="overlay d-flex justify-content-center align-items-center">
                                         <!-- Team Social -->
                                         <div class="team-spec" style="color: white;">
@@ -475,7 +475,7 @@
                                     </div> 
                                 </div>
                                 <div class="team-info">
-                                    <h4 class="team-name">Mayra Eréndira Gómez Bravo</h4>
+                                    <h4 class="team-name">Titular de la Unidad de Transparencia</h4>
                                     <!-- <p class="team-designation">Creative Head</p> -->
                                 </div>
                                 
@@ -508,7 +508,7 @@
                                         <!-- Team Social -->
                                         <div class="team-spec" style="color: white;">
                                         <h4>Integrante</h4> 
-                                        <br>Suplente: Alhely Rubio Arronis</div>
+                                        <br>Suplente: </div>
                                     </div> 
                                 </div>
                                 <div class="team-info">
