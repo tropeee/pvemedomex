@@ -222,31 +222,49 @@ https://partidoverdeedomex.org/estructura
                     </div>
                   </div>
                 </div>
-                <div class="col-team col-xs-6 col-md-4">
-                  <div class="team-profile">
-                    <img alt="" src="{{ asset('images/consejeros/alejandro.png')}}">
-                    <div class="team-hover">
-                      <div class="team-content">
-                        <div class="team-name">
-                          <h6>Alejandro Agundis Arias</h6>
-                          <div class="team-spec">Consejero</div>
-                        </div>
-                        <div class="team-social">
-                          <a href="" class="icon ion-social-twitter"></a>
-                          <a href="" class="icon ion-social-facebook"></a>
-                          <a href="" class="icon ion-social-instagram"></a>
+                  <div class="col-team col-xs-6 col-md-4">
+                    <div class="team-profile">
+                      <img alt="" src="{{ asset('images\avatar-mujer.png')}}">
+                      <div class="team-hover">
+                        <div class="team-content">
+                          <div class="team-name">
+                            <h6>Brigida Bolado García</h6>
+                            <div class="team-spec">Consejera</div>
+                          </div>
+                          <div class="team-social">
+                            <a href="" class="icon ion-social-twitter"></a>
+                            <a href="" class="icon ion-social-facebook"></a>
+                            <a href="" class="icon ion-social-instagram"></a>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
+                 <div class="col-team col-xs-6 col-md-4">
+                    <div class="team-profile">
+                      <img alt="" src="{{ asset('images\avatar-mujer.png')}}">
+                      <div class="team-hover">
+                        <div class="team-content">
+                          <div class="team-name">
+                            <h6>Alejandra Monserrat Sánchez Guzmán</h6>
+                            <div class="team-spec">Consejera</div>
+                          </div>
+                          <div class="team-social">
+                            <a href="" class="icon ion-social-twitter"></a>
+                            <a href="" class="icon ion-social-facebook"></a>
+                            <a href="" class="icon ion-social-instagram"></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 <div class="col-team col-xs-6 col-md-4">
                   <div class="team-profile">
                     <img alt="" src="{{ asset('images\avatar-hombre.png')}}">
                     <div class="team-hover">
                       <div class="team-content">
                         <div class="team-name">
-                          <h6>Francisco Agundis Arias</h6>
+                          <h6>Fernando Flores Picazo</h6>
                           <div class="team-spec">Consejero</div>
                         </div>
                         <div class="team-social">
@@ -258,80 +276,7 @@ https://partidoverdeedomex.org/estructura
                     </div>
                   </div>
                 </div>
-                {{-- <div class="col-team col-xs-6 col-md-4">
-                  <div class="team-profile">
-                    <img alt="" src="images/secretarios/ian.png">
-                    <div class="team-hover">
-                      <div class="team-content">
-                        <div class="team-name">
-                          <h6>Ian Karla Schleske de Ariño</h6>
-                          <div class="team-spec">Consejera</div>
-                        </div>
-                        <div class="team-social">
-                          <a href="" class="icon ion-social-twitter"></a>
-                          <a href="" class="icon ion-social-facebook"></a>
-                          <a href="" class="icon ion-social-linkedin"></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div> --}}
                 <div class="col-team col-xs-6 col-md-4">
-                  <div class="team-profile">
-                    <img alt="" src="{{ asset('images\avatar-mujer.png')}}">
-                    <div class="team-hover">
-                      <div class="team-content">
-                        <div class="team-name">
-                          <h6>María José Villegas Leal</h6>
-                          <div class="team-spec">Consejera</div>
-                        </div>
-                        <div class="team-social">
-                          <a href="" class="icon ion-social-twitter"></a>
-                          <a href="" class="icon ion-social-facebook"></a>
-                          <a href="" class="icon ion-social-instagram"></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-team col-xs-6 col-md-4">
-                    <div class="team-profile">
-                      <img alt="" src="{{ asset('images\avatar-hombre.png')}}">
-                      <div class="team-hover">
-                        <div class="team-content">
-                          <div class="team-name">
-                            <h6>Alfonso José Chozas Chozas</h6>
-                            <div class="team-spec">Consejero</div>
-                          </div>
-                          <div class="team-social">
-                            <a href="" class="icon ion-social-twitter"></a>
-                            <a href="" class="icon ion-social-facebook"></a>
-                            <a href="" class="icon ion-social-instagram"></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-team col-xs-6 col-md-4">
-                    <div class="team-profile">
-                      <img alt="" src="{{ asset('images\avatar-hombre.png')}}">
-                      <div class="team-hover">
-                        <div class="team-content">
-                          <div class="team-name">
-                            <h6>Fernando Flores Picazo</h6>
-                            <div class="team-spec">Consejero</div>
-                          </div>
-                          <div class="team-social">
-                            <a href="" class="icon ion-social-twitter"></a>
-                            <a href="" class="icon ion-social-facebook"></a>
-                            <a href="" class="icon ion-social-instagram"></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div class="col-team col-xs-6 col-md-4">
                     <div class="team-profile">
                       <img alt="" src="{{ asset('images/estructura/Pepe.png')}}">
                       <div class="team-hover">
@@ -349,14 +294,34 @@ https://partidoverdeedomex.org/estructura
                       </div>
                     </div>
                   </div>
+                
+                 <div class="col-team col-xs-6 col-md-4">
+                  <div class="team-profile">
+                    <img alt="" src="{{ asset('images\avatar-hombre.png')}}">
+                    <div class="team-hover">
+                      <div class="team-content">
+                        <div class="team-name">
+                          <h6>Diego Guerrero Rubio</h6>
+                          <div class="team-spec">Consejero</div>
+                        </div>
+                        <div class="team-social">
+                          <a href="" class="icon ion-social-twitter"></a>
+                          <a href="" class="icon ion-social-facebook"></a>
+                          <a href="" class="icon ion-social-instagram"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                 
                   <div class="col-team col-xs-6 col-md-4">
                     <div class="team-profile">
-                      <img alt="" src="{{ asset('images/consejeros/diego.png')}}">
+                      <img alt="" src="{{ asset('images\avatar-mujer.png')}}">
                       <div class="team-hover">
                         <div class="team-content">
                           <div class="team-name">
-                            <h6>Diego Guerrero Rubio</h6>
-                            <div class="team-spec">Consejero</div>
+                            <h6>Alejandra Chedraui Peralta</h6>
+                            <div class="team-spec">Consejera</div>
                           </div>
                           <div class="team-social">
                             <a href="" class="icon ion-social-twitter"></a>
@@ -367,14 +332,15 @@ https://partidoverdeedomex.org/estructura
                       </div>
                     </div>
                   </div>
+
                   <div class="col-team col-xs-6 col-md-4">
                     <div class="team-profile">
-                      <img alt="" src="{{ asset('images\avatar-hombre.png')}}">
+                      <img alt="" src="{{ asset('images\avatar-mujer.png')}}">
                       <div class="team-hover">
                         <div class="team-content">
                           <div class="team-name">
-                            <h6>Esteban Fernández Cruz</h6>
-                            <div class="team-spec">Consejero</div>
+                            <h6>María del Carmen Peralta Vaqueiro</h6>
+                            <div class="team-spec">Consejera</div>
                           </div>
                           <div class="team-social">
                             <a href="" class="icon ion-social-twitter"></a>
@@ -385,7 +351,8 @@ https://partidoverdeedomex.org/estructura
                       </div>
                     </div>
                   </div>
-                  <div class="col-team col-xs-6 col-md-4">
+
+                        <div class="col-team col-xs-6 col-md-4">
                     <div class="team-profile">
                       <img alt="" src="{{ asset('images\avatar-mujer.png')}}">
                       <div class="team-hover">
@@ -403,6 +370,7 @@ https://partidoverdeedomex.org/estructura
                       </div>
                     </div>
                   </div>
+  
                   <div class="col-team col-xs-6 col-md-4">
                     <div class="team-profile">
                       <img alt="" src="{{ asset('images\avatar-mujer.png')}}">
@@ -423,29 +391,11 @@ https://partidoverdeedomex.org/estructura
                   </div>
                   <div class="col-team col-xs-6 col-md-4">
                     <div class="team-profile">
-                      <img alt="" src="{{ asset('images/consejeros/romina.png')}}">
+                      <img alt="" src="{{ asset('images\avatar-hombre.png')}}">
                       <div class="team-hover">
                         <div class="team-content">
                           <div class="team-name">
-                            <h6>Romina Poumian González</h6>
-                            <div class="team-spec">Consejera</div>
-                          </div>
-                          <div class="team-social">
-                            <a href="" class="icon ion-social-twitter"></a>
-                            <a href="" class="icon ion-social-facebook"></a>
-                            <a href="" class="icon ion-social-instagram"></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-team col-xs-6 col-md-4">
-                    <div class="team-profile">
-                      <img alt="" src="{{ asset('images\avatar-mujer.png')}}">
-                      <div class="team-hover">
-                        <div class="team-content">
-                          <div class="team-name">
-                            <h6>María del Carmen Peralta Vaqueiro</h6>
+                            <h6>Alfonso José Chozas Chozas</h6>
                             <div class="team-spec">Consejero</div>
                           </div>
                           <div class="team-social">
@@ -457,6 +407,7 @@ https://partidoverdeedomex.org/estructura
                       </div>
                     </div>
                   </div>
+                          
               </div>
             </div>
           </div>
