@@ -76,7 +76,7 @@
                     </div>
                     <div class="form-group col-sm-12 col-lg-12" style="text-align: justify">
                         <input type="checkbox" id="check" name="check" value="check">
-                        <b> <span> Al utilizar este formulario, usted acepta las políticas de almacenamiento y protección de datos personales visibles en este sitio web.</span></b>
+                        <b> <span> Al utilizar este formulario, usted acepta las políticas de almacenamiento y protección de datos personales visibles en este sitio web.<br><a target="blank" href="{{ asset('pdf/avisos-privacidad/Aviso_privacidad_integral_afiliados2021.pdf') }}">Podrá consultar el aviso de privacidad para el tratamiento de su datos personales.<a> </span></b>
 
                         @if ($errors->has('check'))
                             <span style="color: #FF0000">{{ $errors->first('check') }}</span>
