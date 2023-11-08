@@ -465,11 +465,11 @@ https://partidoverdeedomex.org/estructura
                 </div>
                 <div class="col-team col-xs-6 col-md-4">
                   <div class="team-profile">
-                    <img alt="" src="{{ asset('images/estructura/paulina-cortes.webp')}}">
+                    <img alt="" src="{{ asset('images/comite-transparencia/profile.png') }}">
                     <div class="team-hover">
                       <div class="team-content">
                         <div class="team-name">
-                          <h6>Paulina Cortés Álvarez</h6>
+                          <h6></h6>
                           <div class="team-spec">Comisionado</div>
                         </div>
                         <div class="team-social">

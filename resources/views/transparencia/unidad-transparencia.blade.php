@@ -226,7 +226,7 @@
                         <div class="item text-center">
                             <div class="team-box">
                             <div class="img-holder position-relative">
-                                    <img src="{{ asset('images/estructura/Dulce-Maria.webp') }}">
+                                    <img src="{{ asset('images/comite-transparencia/profile.png') }}">
                                     <div class="overlay d-flex justify-content-center align-items-center">
                                         <!-- Team Social -->
                                         <div class="team-spec" style="color: white;">
@@ -235,7 +235,7 @@
                                     </div> 
                                 </div>
                                 <div class="team-info">
-                                    <h4 class="team-name">Dulce María Gutiérrez Becerril</h4>
+                                    <h4 class="team-name"></h4>
                                     <!-- <p class="team-designation">Creative Head</p> -->
                                 </div>
                             </div>
