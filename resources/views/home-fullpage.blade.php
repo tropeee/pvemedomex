@@ -378,7 +378,7 @@ Herramienta web de accesibilidad para personas con discapacidad auditiva, manual
            <!-- <div class="section-bg" style="background-image:url(images/secretarios/landing/hector.webp);"></div> -->
             <div class="section-bg" style="background-image:url(images/secretarios/landing/fabian.webp);"></div>
             <!--<div class="section-bg" style="background-image:url(images/secretarios/landing/brigida.webp);"></div> -->
-            <!-- <div class="section-bg" style="background-image:url(images/secretarios/landing/diego.webp);"></div> -->
+             <div class="section-bg" style="background-image:url(images/secretarios/landing/diego.webp);"></div> 
             <!-- <div class="section-bg" style="background-image:url(images/secretarios/landing/mayra.webp);"></div> -->
             <!-- <div class="section-bg" style="background-image:url(images/secretarios/landing/jorge.webp);"></div> -->
           </div>
