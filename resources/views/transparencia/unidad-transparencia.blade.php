@@ -204,25 +204,26 @@
             <div class="col-12 col-lg-8">
                 <div class="team-area wow fadeInRight">
                     <div class="row no-gutters team-carousel owl-carousel owl-theme">
-                        <!--<div class="item text-center">
+                        <div class="item text-center">
                             <div class="team-box">
                                 <div class="img-holder position-relative">
-                                    <img src="{{ asset('images/estructura/')}}">
+                                              <img src="{{ asset('images/comite-transparencia/profile.png') }}">
                                     <div class="overlay d-flex justify-content-center align-items-center">
                                        
                                         <div class="team-spec" style="color: white;">
                                         <h4>Titular de la Unidad de Transparencia</h4> 
-                                        <br>Suplente: Susana Pichardo Pereyra</div>
+                                        </div>
                                     </div> 
                                 </div>
                                 <div class="team-info">
-                                    <h4 class="team-name">titular de transparencia</h4>
+                                    <h4 class="team-name">Brenda Selena Medina Hernández</h4>
                                    
                                 </div>
                                 
                             </div>
                         </div>
-                        -->
+
+                        
                         <div class="item text-center">
                             <div class="team-box">
                             <div class="img-holder position-relative">
@@ -235,7 +236,7 @@
                                     </div> 
                                 </div>
                                 <div class="team-info">
-                                    <h4 class="team-name"></h4>
+                                    <h4 class="team-name"> José Juan Bustos Manzano</h4>
                                     <!-- <p class="team-designation">Creative Head</p> -->
                                 </div>
                             </div>
@@ -262,7 +263,8 @@
                         <div class="item text-center">
                             <div class="team-box">
                             <div class="img-holder position-relative">
-                                    <img src="{{ asset('images/estructura/Veronica.webp') }}">
+                                    <!--<img src="{{ asset('images/estructura/Veronica.webp') }}"> -->
+                                    <img src="{{ asset('images/comite-transparencia/profile.png') }}">
                                     <div class="overlay d-flex justify-content-center align-items-center">
                                         <!-- Team Social -->
                                         <div class="team-spec" style="color: white;">
@@ -271,18 +273,18 @@
                                     </div> 
                                 </div>
                                 <div class="team-info">
-                                    <h4 class="team-name">Verónica Pérez Martínez</h4>
+                                    <h4 class="team-name">Angelica Annel Neri Villavicencio</h4>
                                     <!-- <p class="team-designation">Creative Head</p> -->
                                 </div>
                             </div>
                         </div>
-                        
+                        <!--
                         <div class="item text-center">
                             <div class="team-box">
                             <div class="img-holder position-relative">
                                     <img src="{{ asset('images/estructura/Abraham-Fabian.webp') }}">
                                     <div class="overlay d-flex justify-content-center align-items-center">
-                                        <!-- Team Social -->
+                                      
                                         <div class="team-spec" style="color: white;">
                                         <h4>FPH Área Coordinadora de Archivo y Secretaría de Asuntos de la Juventud</h4>
                                         </div>
@@ -290,7 +292,7 @@
                                 </div>
                                 <div class="team-info">
                                     <h4 class="team-name">Abraham Fabián Hernández</h4>
-                                    <!-- <p class="team-designation">Creative Head</p> -->
+                                 
                                 </div>
                             </div>
                         </div>
@@ -300,7 +302,7 @@
                             <div class="img-holder position-relative">
                                     <img src="{{ asset('images/estructura/Susana-Pereyra.webp') }}">
                                     <div class="overlay d-flex justify-content-center align-items-center">
-                                        <!-- Team Social -->
+                                      
                                         <div class="team-spec" style="color: white;">
                                         <h4>FPH Unidad de Transparencia y Secretaría de Ecología y Medio Ambiente</h4>
                                         </div>
@@ -308,11 +310,10 @@
                                 </div>
                                 <div class="team-info">
                                     <h4 class="team-name">Susana Pichardo Pereyra</h4>
-                                    <!-- <p class="team-designation">Creative Head</p> -->
-                                </div>
+                                    
                             </div>
                         </div>
-                        
+                        -->
                         <!--<div class="item text-center">
                             <div class="team-box">
                             <div class="img-holder position-relative">
@@ -329,22 +330,22 @@
                                   
                                 </div>
                             </div>
-                        </div>-->
-                        
+                        </div>
+                        -->
                         <div class="item text-center">
                             <div class="team-box">
                             <div class="img-holder position-relative">
-                                    <img src="{{ asset('images/estructura/Elizabeth-Pereyra.webp') }}">
+                              <img src="{{ asset('images/comite-transparencia/profile.png') }}">
                                     <div class="overlay d-flex justify-content-center align-items-center">
-                                        <!-- Team Social -->
+                                       
                                         <div class="team-spec" style="color: white;">
                                         <h4>FPH Secretaría de Comunicación Social y Secretaría de la Mujer</h4>
                                         </div>
                                     </div> 
                                 </div>
                                 <div class="team-info">
-                                    <h4 class="team-name">Elizabeth Pichardo Pereyra</h4>
-                                    <!-- <p class="team-designation">Creative Head</p> -->
+                                    <h4 class="team-name">Paulina González Cuadros</h4>
+                                   
                                 </div>
                             </div>
                         </div>
